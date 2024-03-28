@@ -27,11 +27,6 @@ Hey there! I'm Raghuvaran Lokati, an Android and web applications developer. I'm
 ### Payment Gateway
 [![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white)](https://stripe.com/in)
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical)
 
 ---
 
@@ -46,6 +41,12 @@ Built a React Native Uber clone app, leveraging GPS tracking and real-time locat
 ### [Amazon Clone](https://github.com/Raghuvaranlokati/amazon)
 Developed a React Native Amazon clone app, incorporating key functionalities such as user authentication, product browsing, shopping cart management, and secure payment processing, providing users with a familiar and intuitive online shopping experience reminiscent of the original platform.
 
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical)
 ---
 
 

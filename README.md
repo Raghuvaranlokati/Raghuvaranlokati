@@ -22,6 +22,9 @@ Hey there! I'm Raghuvaran Lokati, an Android and web applications developer. I'm
 ### Backend
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)](https://www.sanity.io/)
+[![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)](https://clerk.dev/)
+[![GetStream.io](https://img.shields.io/badge/GetStream.io-33A0FF?style=flat&logo=getstream.io&logoColor=white)](https://getstream.io/)
+
 
 
 ### Payment Gateway

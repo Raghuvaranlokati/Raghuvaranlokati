@@ -62,6 +62,7 @@ Developed a React Native Amazon clone app, incorporating key functionalities suc
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/raghuvaranl)
 
 ---
-## 🚀 Profile Views
+## 👀 Profile Views
 
-![Profile Views](https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=blue)
+[![Profile Views](https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=blue)](https://github.com/Raghuvaranlokati)
+

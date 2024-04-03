@@ -7,7 +7,7 @@ Hey there! I'm Raghuvaran Lokati, an Android and web applications developer. I'm
 ## 🔗 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
-[![Website](https://img.shields.io/badge/Website-Visit-red?style=flat&logo=wordpress)](https://raghuvaranlokati.com)
+[![Website](https://img.shields.io/badge/Website-Visit-red?style=flat&logo=wordpress)](https://portfolio-2l30hy3o1-raghuvaranlokatis-projects.vercel.app/#home)
 
 ---
 

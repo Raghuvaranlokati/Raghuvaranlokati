@@ -24,7 +24,6 @@ Hey there! I'm Raghuvaran Lokati, an Android and web applications developer. I'm
 
 ### Backend
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)
 [![Superbase](https://img.shields.io/badge/Superbase-0044FF?style=flat&logo=supabase&logoColor=white)](https://supabase.io/)

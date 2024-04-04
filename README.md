@@ -38,6 +38,7 @@ Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications develo
 ### Additional Technologies
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![Stream.io](https://img.shields.io/badge/Stream.io-33A0FF?style=flat&logo=getstream.io&logoColor=white)](https://getstream.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-2B547E?style=flat&logo=security&logoColor=white)](#)
 
 

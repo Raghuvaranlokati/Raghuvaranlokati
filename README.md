@@ -29,6 +29,8 @@ Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications develo
 [![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)](https://www.sanity.io/)
 [![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)](https://clerk.dev/)
 [![Strapi](https://img.shields.io/badge/Strapi-2E7EEA?style=flat&logo=strapi&logoColor=white)](https://strapi.io/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+
 
 ### Frameworks 
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)

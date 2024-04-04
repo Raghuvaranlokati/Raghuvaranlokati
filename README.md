@@ -1,6 +1,6 @@
 # 👋 Welcome to My GitHub Profile! 
 
-Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications developer. I'm passionate about exploring the intersection of technology and protection to safeguard digital assets.
+Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications developer. I'm also passionate about exploring the intersection of technology and protection to safeguard digital assets.
 
 ---
 

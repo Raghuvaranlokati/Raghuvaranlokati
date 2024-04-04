@@ -25,11 +25,13 @@ Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications develo
 ### Backend
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)
 [![Superbase](https://img.shields.io/badge/Superbase-0044FF?style=flat&logo=supabase&logoColor=white)](https://supabase.io/)
 [![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)](https://www.sanity.io/)
 [![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)](https://clerk.dev/)
 [![Strapi](https://img.shields.io/badge/Strapi-2E7EEA?style=flat&logo=strapi&logoColor=white)](https://strapi.io/)
+
+### Frameworks 
+[![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)
 
 ### Additional Technologies
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)

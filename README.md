@@ -14,16 +14,26 @@ Hey there! I'm Raghuvaran Lokati, an Android and web applications developer. I'm
 ## 💼 Skills
 
 ### Frontend
-[![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://www.javascript.com/)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+- ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)
+- ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=white)
+- ![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 ### Backend
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)](https://www.sanity.io/)
-[![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)](https://clerk.dev/)
-[![GetStream.io](https://img.shields.io/badge/GetStream.io-33A0FF?style=flat&logo=getstream.io&logoColor=white)](https://getstream.io/)
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+- ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
+- ![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+- ![Sirbase](https://img.shields.io/badge/Sirbase-8B572A?style=flat&logo=sirbase&logoColor=white)
+- ![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)
+- ![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)
+- ![Stream.io](https://img.shields.io/badge/GetStream.io-33A0FF?style=flat&logo=getstream.io&logoColor=white)
+- Cybersecurity
 
 
 

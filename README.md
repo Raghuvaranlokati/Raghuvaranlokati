@@ -62,7 +62,8 @@ Built a React Native Uber clone app, leveraging GPS tracking and real-time locat
 Developed a React Native Amazon clone app, incorporating key functionalities such as user authentication, product browsing, shopping cart management, and secure payment processing, providing users with a familiar and intuitive online shopping experience reminiscent of the original platform.
 
 ### [NextMeeting Web Application](https://next-meeting-beta.vercel.app/)
-Created a NextMeeting web application using Next.js, Clerk, and GetStream.io. This application facilitates scheduling and managing meetings, leveraging real-time updates and authentication features provided by Clerk, and integrating chat functionality using GetStream.io.
+created a NextMeeting web application using Next.js, Clerk, and GetStream.io. This application facilitates scheduling and managing meetings, leveraging real-time updates and authentication features provided by Clerk and integrating chat functionality using GetStream.io. 
+
 ---
 
 ## 📊 GitHub Stats

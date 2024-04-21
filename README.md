@@ -32,7 +32,7 @@ Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications develo
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
 
-### Frameworks 
+### Library
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)
 
 ### Additional Technologies

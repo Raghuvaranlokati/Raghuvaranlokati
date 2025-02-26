@@ -9,6 +9,7 @@ Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications develo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
 [![Website](https://img.shields.io/badge/Website-Visit-red?style=flat&logo=wordpress)](https://raghuvaran.vercel.app/)
 [![Business](https://img.shields.io/badge/Business-Explore-green?style=flat&logo=vercel)](https://fogo-zeta.vercel.app/)
+[![Tournament](https://img.shields.io/badge/Tournament-Join%20Now-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)
 
 
 ---

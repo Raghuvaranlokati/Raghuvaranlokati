@@ -86,7 +86,10 @@ created a NextMeeting web application using Next.js, Clerk, and GetStream.io. Th
 ---
 ## Support My Work
 
-If you like this project, consider supporting me on [Patreon](https://www.patreon.com/yourusername) or [Ko-fi](https://ko-fi.com/yourusername). Your support helps me keep improving my projects!
+If you like this project, consider supporting me on [Patreon](https://www.patreon.com/yourusername) or [Ko-fi](https://ko-fi.com/raghuvaran). Your support helps me keep improving my projects!
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/raghuvaranl)
+
+---
 
 [![Ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/yourusername)
 ---
@@ -105,9 +108,7 @@ If you like this project, consider supporting me on [Patreon](https://www.patreo
 
 ---
 ## ☕ Support Me
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/raghuvaranl)
 
----
 ## 👀 Profile Views
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=blue)](https://github.com/Raghuvaranlokati)

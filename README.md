@@ -84,7 +84,15 @@ Developed a React Native Amazon clone app, incorporating key functionalities suc
 created a NextMeeting web application using Next.js, Clerk, and GetStream.io. This application facilitates scheduling and managing meetings, leveraging real-time updates and authentication features provided by Clerk and integrating chat functionality using GetStream.io. 
 
 ---
+## Support My Work
 
+If you like this project, consider supporting me on [Patreon](https://www.patreon.com/yourusername) or [Ko-fi](https://ko-fi.com/yourusername). Your support helps me keep improving my projects!
+
+[![Ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/yourusername)
+---
+## Check out this awesome tool:
+[Affiliate Link - Tool Name](https://www.affiliate-link.com)
+---
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical)

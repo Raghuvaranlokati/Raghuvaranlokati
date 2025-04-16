@@ -3,14 +3,23 @@
 Hey there! I'm Raghuvaran Lokati is an Android , IOS and web applications developer. I'm also passionate about exploring the intersection of technology and protection to safeguard digital assets.
 
 ---
-## 🚀 Check Out My Latest Project!
+## 🏆 Premium Project for Sale – QR Generator Platform (Pro-Level)
 
-🎯 **[QR Generator – The Only Free & Pro QR Code Generator You’ll Ever Need!](https://www.qr-generator.space/)**  
-I built this platform from scratch. You can generate & decode **free QR codes** for links, files, locations, contacts, emails, and more.  
-🔐 100% Privacy-Focused – No login needed.  
-⚡ Super Fast. Mobile-Friendly. SEO-Optimized.  
-💻 Made with **Next.js, Tailwind CSS, Cloudinary, and more!**
+🚀 **[QR Generator – The Ultimate All-in-One QR Code Platform](https://www.qr-generator.space/)**  
+Proudly built and designed by me – now available for acquisition!
 
+💼 **What It Offers:**
+- ✅ Generate & Decode QR codes for: URLs, files, locations, contacts, SMS, emails, and more.
+- 🔐 100% Free, Privacy-Focused – No user login required.
+- ⚙️ Built with: **Next.js, Tailwind CSS, TypeScript, Cloudinary, Clerk, html-to-image, and more**.
+- 📈 SEO-optimized, Mobile-first design, Lightning-fast load times.
+- 🧩 Fully responsive UI, animated sections, structured data, and Google Analytics integration.
+- 🌍 Domain: [qr-generator.space](https://www.qr-generator.space) – perfect for global branding.
+
+💰 **This website is up for sale** – Ideal for entrepreneurs, marketers, or developers looking for a ready-to-scale tool in the growing QR code market.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)  
+📧 **Email:** raghuvaranlokati@gmail.com
 ---
 ## 🔗 Connect with Me
 

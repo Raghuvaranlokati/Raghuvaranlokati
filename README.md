@@ -99,7 +99,7 @@ created a NextMeeting web application using Next.js, Clerk, and GetStream.io. Th
 
 ---
 ## Check out this awesome tool:
-[Affiliate Link - Tool Name](https://www.affiliate-link.com)
+[Affiliate Link - git toolsm free](https://amzn.to/4lPL9GL)
 ---
 ## 📊 GitHub Stats
 

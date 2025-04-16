@@ -87,11 +87,13 @@ created a NextMeeting web application using Next.js, Clerk, and GetStream.io. Th
 ## Support My Work
  Your support helps me keep improving my projects!
  [Ko-fi](https://ko-fi.com/raghuvaran).
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/raghuvaranl)
+[![Buy Me a Coffee](https://www.buymeacoffee.com/raghuvaranl)
 
 ---
 
 [![Ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/raghuvaran)
+
+---
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/raghuvaranl)
 
 

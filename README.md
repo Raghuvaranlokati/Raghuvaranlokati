@@ -23,8 +23,8 @@ Proudly built and designed by me – now available for acquisition!
 ## 🔗 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
-[![Website](https://img.shields.io/badge/Website-Visit-red?style=flat&logo=wordpress)](https://raghuvaran.vercel.app/)
-[![Business](https://img.shields.io/badge/Business-Explore-green?style=flat&logo=vercel)](https://fogo-zeta.vercel.app/)
+[![Website](https://img.shields.io/badge/Website-Visit-red?style=flat&logo=wordpress)](https://github.com/Raghuvaranlokati/)
+[![Business](https://img.shields.io/badge/Business-Explore-green?style=flat&logo=vercel)](https://viltrana.vercel.app/)
 [![Tournament](https://img.shields.io/badge/Tournament-Join%20Now-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)
 
 

@@ -3,6 +3,13 @@
 Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** building **Android, iOS**, and **Web Applications** with a focus on **privacy-first**, **scalable**, and **aesthetically pleasing** solutions. I love crafting tools that are both practical and protective of digital freedom.
 
 ---
+## 🔗 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)](https://github.com/Raghuvaranlokati/)
+[![Business](https://img.shields.io/badge/Business-App-green?style=flat&logo=vercel)](https://viltrana.vercel.app/)
+[![Tournament](https://img.shields.io/badge/Tournament-Explore-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)
+---
 
 ## 🚀 Premium Project – QR Generator Platform (Pro-Level)
 
@@ -29,14 +36,6 @@ Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** buildi
 - 💬 Ask me about React Native, Next.js, Tailwind, Firebase, Supabase
 - 📫 Email: [raghuvaranlokati@gmail.com](mailto:raghuvaranlokati@gmail.com)
 
----
-
-## 🔗 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)](https://github.com/Raghuvaranlokati/)
-[![Business](https://img.shields.io/badge/Business-App-green?style=flat&logo=vercel)](https://viltrana.vercel.app/)
-[![Tournament](https://img.shields.io/badge/Tournament-Explore-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)
 
 ---
 

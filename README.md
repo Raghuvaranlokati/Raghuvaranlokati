@@ -5,7 +5,7 @@ Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** buildi
 ---
 ## 🔗 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/l-raghuvaran-860572221/)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)](https://github.com/Raghuvaranlokati/)
 [![Business](https://img.shields.io/badge/Business-App-green?style=flat&logo=vercel)](https://viltrana.vercel.app/)
 [![Tournament](https://img.shields.io/badge/Tournament-Explore-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)

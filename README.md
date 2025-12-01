@@ -7,7 +7,6 @@ Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** buildi
 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)](https://github.com/Raghuvaranlokati/)
-[![Business](https://img.shields.io/badge/Business-App-green?style=flat&logo=vercel)](https://viltrana.vercel.app/)
 [![Tournament](https://img.shields.io/badge/Tournament-Explore-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/)
 ---
 

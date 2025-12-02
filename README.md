@@ -1,40 +1,41 @@
-# 👋 Hey, I'm Raghuvaran Lokati
+# 👋 Hey, I'm **Raghuvaran Lokati**
 
-Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** building **Android, iOS**, and **Web Applications** with a focus on **privacy-first**, **scalable**, and **aesthetically pleasing** solutions. I love crafting tools that are both practical and protective of digital freedom.
+Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** building **Android**, **iOS**, and **Web Applications** with a focus on **privacy-first**, **scalable**, and **beautifully crafted** digital experiences.  
+I love building tools that are fast, practical, and protect user freedom.
 
 ---
+
 ## 🔗 Let's Connect
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)](https://www.linkedin.com/in/lokati-raghuvaran-860572221/)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-red?style=flat&logo=vercel)]([https://www.linkedin.com/in/lokati-raghuvaran-860572221/)]
-<!-- [![Tournament](https://img.shields.io/badge/Tournament-Explore-blue?style=flat&logo=vercel)](https://south-ff.vercel.app/) -->
 ---
 
-## 🚀 Premium Project – QR Generator Platform (Pro-Level)
+## 🚀 Premium Project – **QR Generator Platform**
 
-### [🌐 Visit Now – QR Generator](https://www.qr-generator.space/)
+### 👉 [🌐 Visit QR Generator](https://www.qr-generator.space/)
 
-🛠️ A fully-featured, production-ready QR platform designed and developed by me.
+A fully-featured, production-grade QR platform — **designed, developed, and deployed by me**.
 
-**🔹 Features:**
-- ✅ Generate & decode QR codes (URL, SMS, Email, Contacts, Files, and more)
-- 🔐 100% Free & Privacy-Focused – no login required
-- 📱 Fully responsive & mobile-first
-- ⚡ SEO-optimized, fast-loading, analytics-ready
-- 🌍 Custom domain: `qr-generator.space` – available for **purchase**
+### 🔹 Features
+- ✅ Generate & decode 10+ QR types (URL, SMS, Email, Contact, WiFi, Files…)
+- 🔐 100% **Free & Privacy-Focused** – No login, no tracking
+- 📱 Mobile-first responsive UI
+- ⚡ SEO-optimized & analytics-ready
+- 🚀 Deployed on a custom domain: **qr-generator.space**
+- 💸 **Domain available for purchase**
 
-**📬 Contact Me to Buy**  
-📧 [raghuvaranlokati@gmail.com](mailto:raghuvaranlokati@gmail.com)
+📬 **Buy or collaborate:**  
+📧 **[raghuvaranlokati@gmail.com](mailto:raghuvaranlokati@gmail.com)**
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently building privacy-first tools & browser-based apps
-- 🌱 Exploring backend architecture, security, and AI integrations
-- 💬 Ask me about React Native, Next.js, Tailwind, Firebase, Supabase
-- 📫 Email: [raghuvaranlokati@gmail.com](mailto:raghuvaranlokati@gmail.com)
-
+- 🔭 Currently crafting privacy-first web & mobile tools  
+- 🌱 Learning deeper backend architecture, security, and AI integrations  
+- 💬 Ask me about **React Native, Expo, Next.js, Tailwind, Firebase, Supabase, Node.js**  
+- 📫 Email: **[raghuvaranlokati@gmail.com](mailto:raghuvaranlokati@gmail.com)**  
 
 ---
 
@@ -55,7 +56,7 @@ Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** buildi
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-0044FF?style=flat&logo=supabase&logoColor=white)
-![Sanity.io](https://img.shields.io/badge/Sanity.io-333333?style=flat&logo=sanity&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-333333?style=flat&logo=sanity&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-4B63E6?style=flat&logo=clerk&logoColor=white)
 ![Strapi](https://img.shields.io/badge/Strapi-2E7EEA?style=flat&logo=strapi&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
@@ -64,28 +65,27 @@ Welcome to my GitHub profile! I’m a passionate **Full-Stack Developer** buildi
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Stream.io](https://img.shields.io/badge/Stream.io-33A0FF?style=flat&logo=getstream.io&logoColor=white)
+![Stream.io](https://img.shields.io/badge/Stream.io-33A0FF?style=flat&logo=getstream&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-2B547E?style=flat&logo=security&logoColor=white)
 
 ### 💳 Payments  
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white)
-
 
 ---
 
 ## 📦 Featured Projects
 
 ### 🔋 [Tesla Clone](https://github.com/Raghuvaranlokati/tesla)
-> A polished React clone of the Tesla homepage with stunning visuals and animations.
+A clean, animated React clone of the Tesla homepage.
 
 ### 🛒 [Amazon Clone](https://github.com/Raghuvaranlokati/amazon)
-> E-commerce app built with React Native – includes auth, cart, and payment system.
+E-commerce React Native app with cart, auth, and payments.
 
 ### 🚖 [Uber Clone](https://github.com/Raghuvaranlokati/uber)
-> GPS-powered ride-hailing app using React Native, real-time maps, and trip flow.
+Ride-hailing app with maps, GPS, and trip booking flow.
 
 ### 📆 [NextMeeting App](https://next-meeting-beta.vercel.app/)
-> A modern scheduling tool built with Next.js, Clerk, and GetStream.io for real-time chat.
+Modern real-time meeting scheduler using Next.js + Clerk + Stream.
 
 ---
 

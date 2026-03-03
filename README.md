@@ -1,103 +1,115 @@
-# 👋 Hey, I'm Raghuvaran Lokati  
+# 👋 Hey, I'm Raghuvaran Lokati
 
-🚀 Full-Stack Developer | 🤖 AI & Data Science Enthusiast  
-🔐 Building Privacy-First Web & Mobile Applications  
+> Full-Stack Developer · Mobile Architect · Privacy-First Maker  
+> Building Web, Android & iOS apps — now exploring AI / Data Science.
 
 ---
 
-## 🔗 Connect With Me  
-
+<!-- Social + Contact -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Raghuvaran-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lokati-raghuvaran-860572221/)
-[![Email](https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raghuvaranlokati@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=vercel)](https://www.linkedin.com/in/lokati-raghuvaran-860572221/)
+[![Website](https://img.shields.io/badge/Portfolio-qr-generator.space-black?style=for-the-badge&logo=vercel)](https://www.qr-generator.space/)
+[![Email](https://img.shields.io/badge/Email-contact-red?style=for-the-badge&logo=gmail)](mailto:raghuvaranlokati@gmail.com)
 
 ---
 
-# 💻 Tech Stack  
+## About
+I design and ship privacy-first, scalable web & mobile apps. I like clean UI, fast performance, and building tools that respect user freedom.
 
-### 🚀 Frontend
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- 🔭 Current: maintaining **QR Generator Platform** — [qr-generator.space](https://www.qr-generator.space/)  
+- 🌱 Expanding into **AI / Data Science & ML** for practical projects
+- 📫 Contact: raghuvaranlokati@gmail.com
 
 ---
 
-### 🧠 Backend & Database
-![Node JS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express JS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+## Tech / Tools
+<!-- Frontend -->
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5) 
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3) 
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) 
+![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css)
+
+<!-- Backend -->
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js) 
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb)
+![Supabase](https://img.shields.io/badge/Supabase-0044FF?style=flat-square&logo=supabase)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase)
+
+<!-- AI / DS -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch)
 
 ---
 
-### 🤖 AI / Data Science
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+## Featured Project
+### 🔳 QR Generator Platform — [qr-generator.space](https://www.qr-generator.space/)
+A production-ready QR platform (generate / decode many QR types). Privacy-first: no login, no tracking by default.
 
 ---
 
-### 🛠 Tools & DevOps
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge)
-![Stream](https://img.shields.io/badge/Stream-005FFF?style=for-the-badge)
+## GitHub Widgets & Tracking
+*(These auto-generate SVGs and badges that work on GitHub profile pages.)*
 
----
+<!-- GitHub Stats -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical)
 
-# 🚀 Featured Project  
+<!-- Top Languages -->
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=radical)
 
-### 🔳 QR Generator Platform  
-🌐 https://www.qr-generator.space/  
-
-✔ 10+ QR Types  
-✔ 100% Privacy Focused  
-✔ Mobile First  
-✔ Custom Domain Deployed  
-
----
-
-# 📊 GitHub Stats  
-
-![Raghuvaran's GitHub stats](https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=radical)
-
+<!-- Streak -->
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=radical)
 
----
-
-# 🏆 GitHub Trophies  
-
+<!-- Trophies -->
 ![Trophies](https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=radical)
 
----
+<!-- Contribution Snake - replace path if you regenerate -->
+![Contribution Snake](https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg)
 
-# 🐍 Contribution Snake  
-
-![Snake animation](https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg)
-
----
-
-# 👁 Profile Views  
-
-![Profile Views](https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=blue&style=for-the-badge)
+<!-- Profile views -->
+![Profile Views](https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=blue)
 
 ---
 
-## ☕ Support  
+## Simple Privacy-First Analytics (optional)
+If you want tracking for your projects/website but prefer privacy, use one of these options (add one only):
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/raghuvaran)
-[![BuyMeACoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/raghuvaranl)
+- **Plausible** — privacy-first, lightweight (no cookies).  
+  Badge (example):  
+  `[![Plausible](https://plausible.io/yourdomain.com/button?theme=dark)](https://plausible.io/)`
+
+- **Simple Analytics** — analytics without personal data.  
+  Badge (example):  
+  `[![SimpleAnalytics](https://static.simpleanalyticscdn.com/badge/yourdomain.com.svg)](https://simpleanalytics.com/)`
+
+> I did **not** inject any tracking scripts into this README. Enable analytics only on your website(s) and document the privacy policy for visitors.
 
 ---
+
+## How to use / deploy this README
+- Copy this file into your profile repo `README.md`.
+- Update the badges that use your username/domain (WakaTime, Plausible, etc.).
+- If you want the **snake** animation to work, generate `github-contribution-grid-snake.svg` using the popular contribution-snake generator and push to `output/` path, or update the path in the image URL.
+
+---
+
+## Quick Links
+- 📂 Pinned: `amazon`, `NextMeeting`, `tesla`, `uber` (see profile)  
+- 📬 Email: raghuvaranlokati@gmail.com  
+- 🌐 Portfolio / Product: https://www.qr-generator.space/
+
+---
+
+## License
+This README is MIT-friendly — reuse and adapt for your profile.
+
+---
+
+*Generated by combining your existing README content and common GitHub widgets (badges, stats, streak, trophies, snake, views).*

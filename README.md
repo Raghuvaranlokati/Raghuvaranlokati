@@ -22,7 +22,7 @@ I specialize in building high-performance predictive systems, custom deep learni
   <a href="mailto:raghuvaranlokati@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.qr-generator.space/">
+  <a href="https://raghuvaran.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-07080D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
 </p>

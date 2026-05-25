@@ -1,251 +1,171 @@
-<!-- ========================= HEADER ========================= -->
+<div align="center">
 
+<!-- Typing Effect Header -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=900&lines=Hi+there,+I'm+Raghuvaran+Lokati+👋;Data+Scientist+%7C+AI+%26+Machine+Learning+Systems;Full-Stack+Engineer+%7C+Mobile+App+Architect;Building+Scalable+%26+Privacy-First+Products" alt="Typing SVG" />
+
+<!-- Profile Views Badge -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Raghuvaran+Lokati;Full+Stack+Developer;Mobile+App+Architect;AI+%7C+Data+Science+Explorer;Privacy+First+Engineer" />
+  <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&label=PROFILE+VIEWS&color=00F2FE&style=for-the-badge" alt="Profile Views" />
 </p>
 
+### 🚀 Architecting the Future with Intelligence & Code.
+
+I specialize in building high-performance predictive systems, custom deep learning architectures, scalable full-stack MLOps pipelines, and privacy-respecting digital products.
+
+<br/>
+
+<!-- Social & Contact Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+  <a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:raghuvaranlokati@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.qr-generator.space/">
+    <img src="https://img.shields.io/badge/Portfolio-07080D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
----
+<br/>
 
-# 👋 Hello, I'm Raghuvaran
-
-🚀 Full-Stack Developer  
-📱 Android & iOS App Builder  
-🤖 AI / ML Explorer  
-🔐 Privacy-Focused Product Engineer  
-
-I build scalable, performance-optimized and privacy-respecting digital systems.
+</div>
 
 ---
 
-# 🌐 Connect With Me
+## 🧠 Tech Stack & Arsenal
 
-<p align="left">
-<a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/">
-<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-<a href="mailto:raghuvaranlokati@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://www.qr-generator.space/">
-<img src="https://img.shields.io/badge/Portfolio-qr--generator.space-black?style=for-the-badge&logo=vercel"/>
-</a>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🤖 AI & Data Science</h3>
+      <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" /><br/><br/>
+      <code>Pandas</code> <code>NumPy</code> <code>Scikit-Learn</code><br/>
+      <code>Matplotlib</code> <code>Jupyter</code>
+    </td>
+    <td align="center" width="33%">
+      <h3>💻 Frontend & Mobile</h3>
+      <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/>
+      <img src="https://skillicons.dev/icons?i=html,css,expo,redux" />
+    </td>
+    <td align="center" width="33%">
+      <h3>⚙️ Backend & Cloud</h3>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/>
+      <img src="https://skillicons.dev/icons?i=firebase,supabase,strapi" />
+    </td>
+  </tr>
+</table>
 
----
+<div align="center">
+  <h3>🛠 DevOps, Tools & Deployment</h3>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel,aws" />
+</div>
 
-# 🚀 Premium Project
-
-## 🔳 QR Generator Platform  
-🌐 https://www.qr-generator.space/
-
-✔ 10+ QR Types  
-✔ Privacy Focused  
-✔ No Login Required  
-✔ Optimized for Speed  
-✔ Production Deployed  
-
----
-
-# 🧠 Tech Universe
-
-## 💻 Frontend Stack
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,tailwind,expo,redux" />
-</p>
+<br/>
 
 ---
 
-## ⚙ Backend & Database
+## 📈 GitHub Analytics
 
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,supabase,strapi" />
-</p>
+<div align="center">
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
 
----
+  <br/><br/>
 
-## 🤖 AI / Data Science Stack
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=tokyonight&margin-w=10&margin-h=10&no-frame=true&no-bg=true" width="48%" />
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" />
-</p>
+</div>
 
-Additional Tools:
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-Learn
-- Jupyter Notebook
+<br/>
 
 ---
 
-## 🛠 DevOps & Tools
+## 🚀 Featured Projects
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel" />
-</p>
+| Project | Description | Tech Highlights |
+| :--- | :--- | :--- |
+| **[QR Generator Platform](https://www.qr-generator.space/)** | Premium platform with 10+ QR types. Privacy-focused, no login required, optimized for speed. | `Next.js`, `React`, `Production` |
+| **🚗 Uber Clone** | Complete ride-hailing app with live GPS, maps integration, and booking flow. | `React Native`, `Maps API` |
+| **🛒 Amazon Clone** | Scalable e-commerce mobile app with full authentication and payments. | `Stripe`, `Firebase`, `Redux` |
+| **🔋 Tesla Clone** | Modern, highly-animated frontend UI replicating the Tesla homepage experience. | `React`, `Tailwind CSS`, `Framer` |
+| **📅 NextMeeting** | Real-time meeting scheduler with live chat and seamless video support. | `WebRTC`, `Socket.io`, `Node.js` |
 
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=radical&border_radius=10" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=radical&border_radius=10" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=radical&border_radius=10" />
-</p>
+<br/>
 
 ---
 
-# 🏆 Achievements
+<div align="center">
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=radical&margin-w=10&margin-h=10" />
-</p>
+## 🐍 GitHub Contributions Matrix
 
----
+<img src="https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
 
-# 📈 Contribution Graph
+<br/>
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=react-dark" />
-</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=tokyonight&hide_border=true" alt="Activity Graph" />
 
----
+</div>
 
-# 🐍 Contribution Snake
-
-<p align="center">
-<img src="https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg" />
-</p>
+<br/>
 
 ---
 
-# 📚 Featured Projects
+## 🧪 AI & ML Focus Areas
 
-### 🚗 Uber Clone  
-Ride-hailing app with GPS + maps + booking flow.
+> *Bridging Mathematical Rigor with Scalable Engineering*
 
-### 🛒 Amazon Clone  
-E-commerce mobile app with authentication & payments.
-
-### 🔋 Tesla Clone  
-Modern animated homepage clone.
-
-### 📅 NextMeeting  
-Real-time meeting scheduler with live chat & video support.
+- **Data Engineering:** Data Cleaning, EDA, Statistical Modeling, and Predictive Analytics.
+- **Deep Learning:** Custom Architectures, Recommendation Systems, and NLP Foundations.
+- **MLOps:** Model Optimization, Deployment Pipelines, and AI-powered SaaS Integration.
 
 ---
 
-# 🧪 AI / ML Focus Areas
+## 📌 2026 Vision & Roadmap
 
-- Data Cleaning & EDA
-- Statistical Modeling
-- Predictive Analytics
-- Deep Learning
-- Recommendation Systems
-- NLP Foundations
-- Model Optimization
-- AI-powered SaaS Tools
+- [ ] 🔐 Launch Privacy-first Analytics SaaS
+- [ ] 🤖 Develop Autonomous AI-powered automation tools
+- [ ] 📊 Architect Real-time ML tracking dashboards
+- [ ] 🛰 Build Smart Agricultural Drone Systems
+- [ ] 🌍 Expand Micro SaaS ecosystem
 
 ---
 
-# 📌 2026 Vision Roadmap
+## 🧮 Core Engineering Principles
 
-- 🔐 Privacy-first Analytics SaaS
-- 🤖 AI-powered automation tools
-- 📊 Real-time ML dashboards
-- 🛰 Smart Agricultural Drone System
-- 🌍 Micro SaaS ecosystem
+<div align="center">
+  <code>Clean Architecture</code> • 
+  <code>Scalable Backend Systems</code> • 
+  <code>Secure Authentication</code> <br/>
+  <code>Performance Optimization</code> • 
+  <code>SEO Optimization</code> • 
+  <code>Privacy First Approach</code> • 
+  <code>Minimalist UI</code>
+</div>
 
----
-
-# ⏳ Coding Time (Optional WakaTime)
-
-<!-- Replace with your WakaTime badge if enabled -->
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&theme=radical" />
-</p>
+<br/>
 
 ---
 
-# 💡 Developer Quote
+<div align="center">
 
-<p align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
+### 💡 Developer Quote
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
 
----
+<br/><br/>
 
-# 🎧 Spotify (Optional Now Playing)
-
-<!-- Replace USERID with your spotify id -->
-<p align="center">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default" />
-</p>
-
----
-
-# 🧮 Engineering Principles
-
-✔ Clean Architecture  
-✔ Scalable Backend Systems  
-✔ Secure Authentication  
-✔ Performance Optimization  
-✔ SEO Optimization  
-✔ Privacy First Approach  
-✔ Minimalist UI Design  
-
----
-
-# 📦 Deployment Stack
-
-- Vercel
-- Firebase Hosting
-- Custom Domains
-- CDN Optimized
-- Cloud Functions
-- REST APIs
-
----
-
-# 🧭 Current Learning Focus
-
-- Advanced Backend Security
-- System Design
-- AI Model Deployment
-- MLOps Basics
-- Scalable Microservices
-
----
-
-# ☕ Support My Work
-
-<p>
+### ☕ Support My Work
+If you like what I build, consider fueling my coding sessions! <br/><br/>
 <a href="https://ko-fi.com/raghuvaran">
-<img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
 </a>
 <a href="https://www.buymeacoffee.com/raghuvaranl">
-<img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
 </a>
-</p>
 
----
+<br/><br/>
+*Building products that respect users. Building systems that scale. Building future-ready AI solutions.*
 
-# ⚡ Final Note
-
-Building products that respect users.  
-Building systems that scale.  
-Building future-ready AI solutions.
-
----
+</div>

@@ -45,12 +45,12 @@ I specialize in building high-performance predictive systems, custom deep learni
     </td>
     <td align="center" width="33%">
       <h3>💻 Frontend & Mobile</h3>
-      <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/>
+      <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=html,css,expo,redux" />
     </td>
     <td align="center" width="33%">
       <h3>⚙️ Backend & Cloud</h3>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=firebase,supabase,strapi" />
     </td>
   </tr>
@@ -87,10 +87,9 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 | Project | Description | Tech Highlights |
 | :--- | :--- | :--- |
-| **[QR Generator Platform](https://www.qr-generator.space/)** | Premium platform with 10+ QR types. Privacy-focused, no login required, optimized for speed. | `Next.js`, `React`, `Production` |
-| **🚗 Uber Clone** | Complete ride-hailing app with live GPS, maps integration, and booking flow. | `React Native`, `Maps API` |
-| **🛒 Amazon Clone** | Scalable e-commerce mobile app with full authentication and payments. | `Stripe`, `Firebase`, `Redux` |
-| **🔋 Tesla Clone** | Modern, highly-animated frontend UI replicating the Tesla homepage experience. | `React`, `Tailwind CSS`, `Framer` |
+| **[Expense Saver Guru](https://your-nextjs-website-link.com)** 🆕 | Intelligent platform to track, manage, and optimize personal expenses. | `Next.js`, `React`, `AI` |
+| **[Noise Canceller](https://github.com/Raghuvaranlokati/noisecanceller)** 🆕 | AI-powered real-time noise cancellation system for audio processing. | `Python`, `Deep Learning` |
+| **[🌿 Rice Leaf](https://your-rice-leaf-website-link.com)** | Machine learning system for rice leaf disease detection and classification. | `Python`, `Deep Learning`, `Computer Vision` |
 | **📅 NextMeeting** | Real-time meeting scheduler with live chat and seamless video support. | `WebRTC`, `Socket.io`, `Node.js` |
 
 <br/>
@@ -123,31 +122,6 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 ---
 
-## 📌 2026 Vision & Roadmap
-
-- [ ] 🔐 Launch Privacy-first Analytics SaaS
-- [ ] 🤖 Develop Autonomous AI-powered automation tools
-- [ ] 📊 Architect Real-time ML tracking dashboards
-- [ ] 🛰 Build Smart Agricultural Drone Systems
-- [ ] 🌍 Expand Micro SaaS ecosystem
-
----
-
-## 🧮 Core Engineering Principles
-
-<div align="center">
-  <code>Clean Architecture</code> • 
-  <code>Scalable Backend Systems</code> • 
-  <code>Secure Authentication</code> <br/>
-  <code>Performance Optimization</code> • 
-  <code>SEO Optimization</code> • 
-  <code>Privacy First Approach</code> • 
-  <code>Minimalist UI</code>
-</div>
-
-<br/>
-
----
 
 <div align="center">
 

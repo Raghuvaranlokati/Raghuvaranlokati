@@ -8,6 +8,14 @@
   <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&label=PROFILE+VIEWS&color=00F2FE&style=for-the-badge" alt="Profile Views" />
 </p>
 
+<div align="center">
+  <img src="https://i.giphy.com/l0MYLoPRwqwzkYJ1e.webp" width="30%" style="margin: 5px;" />
+  <img src="https://i.giphy.com/4TtTVTmBoXp8txRU0C.webp" width="30%" style="margin: 5px;" />
+  <img src="https://i.giphy.com/pIMlKqgdZgvo4.webp" width="30%" style="margin: 5px;" />
+</div>
+
+<br/>
+
 ### 🚀 Architecting the Future with Intelligence & Code.
 
 I specialize in building high-performance predictive systems, custom deep learning architectures, scalable full-stack MLOps pipelines, and privacy-respecting digital products.

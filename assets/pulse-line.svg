@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 6" width="100%" height="6">
+  <defs>
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B1120" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00F2FE" />
+      <stop offset="70%" stop-color="#9B51E0" />
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(-450px); }
+      100% { transform: translateX(1200px); }
+    }
+    .pulse-line {
+      animation: slide 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+  </style>
+  <rect x="0" y="1" width="1200" height="4" fill="#1e293b" opacity="0.3" rx="2" />
+  <rect class="pulse-line" x="0" y="1" width="450" height="4" fill="url(#pulse-grad)" rx="2" />
+</svg>

@@ -45,7 +45,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 </div>
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 ## 🧠 Tech Stack & Arsenal
 
@@ -91,7 +91,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 ## 🚀 Featured Systems & Projects
 
@@ -134,7 +134,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 ## 📈 GitHub Analytics
 
@@ -145,14 +145,14 @@ I specialize in building high-performance predictive systems, custom deep learni
 
   <br/><br/>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&bg_color=0b1120&title_color=67e8f9&text_color=f8fafc&border_color=1e293b&hide_border=false&border_radius=10" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raghuvaranlokati&layout=compact&bg_color=0b1120&title_color=67e8f9&text_color=f8fafc&border_color=1e293b&hide_border=false&border_radius=10" width="48%" />
   <img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=tokyonight&margin-w=10&margin-h=10&no-frame=true&no-bg=true" width="48%" />
 
 </div>
 
 <br/>
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 <div align="center">
 
@@ -162,13 +162,13 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&bg_color=0b1120&color=a5b4fc&line=67e8f9&point=9b51e0&area=true&hide_border=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=tokyonight&hide_border=true" alt="Activity Graph" />
 
 </div>
 
 <br/>
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 ## 🧪 AI & ML Focus Areas
 
@@ -178,7 +178,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 - **Deep Learning:** Custom Architectures, Recommendation Systems, and NLP Foundations.
 - **MLOps:** Model Optimization, Deployment Pipelines, and AI-powered SaaS Integration.
 
----
+<img src="assets/pulse-line.svg" width="100%" height="8" />
 
 <div align="center">
 

@@ -50,30 +50,44 @@ I specialize in building high-performance predictive systems, custom deep learni
 ## 🧠 Tech Stack & Arsenal
 
 <table align="center" width="100%">
-  <tr>
+  <tr bgcolor="#0B1120">
     <td align="center" valign="top" width="33%">
+      <br/>
       <h3>🤖 AI & Data Science</h3>
       <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" /><br/><br/>
       <code>Pandas</code> <code>NumPy</code> <code>Scikit-Learn</code><br/>
       <code>Matplotlib</code> <code>Jupyter</code>
+      <br/><br/>
     </td>
     <td align="center" valign="top" width="33%">
+      <br/>
       <h3>💻 Frontend & Mobile</h3>
       <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=html,css,expo,redux" />
+      <br/><br/>
     </td>
     <td align="center" valign="top" width="33%">
+      <br/>
       <h3>⚙️ Backend & Cloud</h3>
       <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=firebase,supabase,strapi" />
+      <br/><br/>
     </td>
   </tr>
 </table>
 
-<div align="center">
-  <h3>🛠 DevOps, Tools & Deployment</h3>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel,aws" />
-</div>
+<br/>
+
+<table align="center" width="100%">
+  <tr bgcolor="#0B1120">
+    <td align="center" valign="top">
+      <br/>
+      <h3>🛠 DevOps, Tools & Deployment</h3>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel,aws" />
+      <br/><br/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 

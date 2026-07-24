@@ -166,7 +166,11 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 ## 🐍 GitHub Contributions Matrix
 
+<img src="assets/pulse-line.svg" width="100%" height="4" />
+<br/><br/>
 <img src="https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+<br/><br/>
+<img src="assets/pulse-line.svg" width="100%" height="4" />
 
 <br/>
 

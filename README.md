@@ -52,26 +52,32 @@ I specialize in building high-performance predictive systems, custom deep learni
 <table align="center" width="100%">
   <tr bgcolor="#0B1120">
     <td align="center" valign="top" width="33%">
-      <br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
+      <br/><br/>
       <h3>🤖 AI & Data Science</h3>
       <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" /><br/><br/>
       <code>Pandas</code> <code>NumPy</code> <code>Scikit-Learn</code><br/>
       <code>Matplotlib</code> <code>Jupyter</code>
       <br/><br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
     </td>
     <td align="center" valign="top" width="33%">
-      <br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
+      <br/><br/>
       <h3>💻 Frontend & Mobile</h3>
       <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=html,css,expo,redux" />
       <br/><br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
     </td>
     <td align="center" valign="top" width="33%">
-      <br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
+      <br/><br/>
       <h3>⚙️ Backend & Cloud</h3>
       <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/><br/>
       <img src="https://skillicons.dev/icons?i=firebase,supabase,strapi" />
       <br/><br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
     </td>
   </tr>
 </table>
@@ -81,10 +87,12 @@ I specialize in building high-performance predictive systems, custom deep learni
 <table align="center" width="100%">
   <tr bgcolor="#0B1120">
     <td align="center" valign="top">
-      <br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
+      <br/><br/>
       <h3>🛠 DevOps, Tools & Deployment</h3>
       <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel,aws" />
       <br/><br/>
+      <img src="assets/pulse-line.svg" width="100%" height="3" />
     </td>
   </tr>
 </table>

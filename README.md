@@ -174,7 +174,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=tokyonight&hide_border=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&bg_color=0b1120&color=f8fafc&title_color=67e8f9&line=3b82f6&point=00f2fe&area=true&area_color=1e3a8a&hide_border=true" alt="Activity Graph" />
 
 </div>
 

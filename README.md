@@ -5,116 +5,135 @@
 
 <br/>
 
-<!-- Custom Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1200&color=00F2FE&center=true&vCenter=true&width=800&lines=Building+Production-Grade+Multimodal+AI+Systems;Data+Science+%C2%B7+Deep+Learning+%C2%B7+MLOps;Architecting+scalable,+privacy-first+solutions;Quantizing+models+for+high-efficiency+edge+inference" />
+<!-- Typing Effect Header -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=900&lines=Hi+there,+I'm+Raghuvaran+Lokati+👋;Data+Scientist+%7C+AI+%26+Machine+Learning+Systems;Full-Stack+Engineer+%7C+Mobile+App+Architect;Building+Scalable+%26+Privacy-First+Products" alt="Typing SVG" />
+
+<!-- Profile Views Badge -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&label=PROFILE+VIEWS&color=00F2FE&style=for-the-badge" alt="Profile Views" />
+</p>
+
+<!-- Side-by-Side GIPHY Gifs -->
+<div align="center">
+  <img src="https://i.giphy.com/l0MYLoPRwqwzkYJ1e.webp" width="30%" style="margin: 5px; border-radius: 8px;" />
+  <img src="https://i.giphy.com/4TtTVTmBoXp8txRU0C.webp" width="30%" style="margin: 5px; border-radius: 8px;" />
+  <img src="https://i.giphy.com/pIMlKqgdZgvo4.webp" width="30%" style="margin: 5px; border-radius: 8px;" />
+</div>
 
 <br/>
 
-<!-- Premium Contact & Social Badges -->
+### 🚀 Architecting the Future with Intelligence & Code.
+
+I specialize in building high-performance predictive systems, custom deep learning architectures, scalable full-stack MLOps pipelines, and privacy-respecting digital products.
+
+<br/>
+
+<!-- Social & Contact Badges -->
 <p align="center">
-  <a href="mailto:raghuvaranlokati@gmail.com">
-    <img src="https://img.shields.io/badge/Email-090A0F?style=for-the-badge&logo=gmail&logoColor=00F2FE" alt="Email" />
-  </a>
   <a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/">
-    <img src="https://img.shields.io/badge/LinkedIn-090F1C?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:raghuvaranlokati@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://raghuvaran.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-0D091F?style=for-the-badge&logo=vercel&logoColor=9B51E0" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-07080D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
-<sub>Based in India • Architecting the Future with Intelligence & Code</sub>
+<br/>
 
 </div>
 
 ---
 
-### 🧠 Core Philosophy & Engineering Focus
-I design high-performance predictive systems, custom deep learning architectures, and scalable MLOps pipelines. I believe in **generalization over memorization**—building models that learn actual semantic meaning, handle edge-case noise, and maintain mathematical integrity under production traffic.
+## 🧠 Tech Stack & Arsenal
 
-*   **Deep Learning Invariants:** Implementing rigorous neural sequence techniques (e.g., pre-padding for RNNs/LSTMs to preserve signals, SpatialDropout for regularizing CNNs).
-*   **Multimodal Fusion:** Fusing unstructured signals (1D signals, 2D scans) with structured metadata.
-*   **Edge Optimization:** Compiling and quantizing models (INT8/FP16) for low-power edge nodes.
-
----
-
-### 🩺 Flagship Project: CardioGuard
-> **Multimodal Clinical ECG & Heart Rhythm Analyzer**
-
-CardioGuard is a production-grade deep learning framework that integrates 1D ECG lead sequential signals, 2D visual scans, and patient clinical metadata using a **Multimodal Fusion Network** to deliver state-of-the-art diagnostic accuracy, backed by explainable Grad-CAM heatmaps.
-
-```mermaid
-graph TD
-    RawSignal["Raw 1D ECG Leads (12-Lead Voltages)"] --> SignalPrep["Bandpass Filter & Z-Score Normalization"]
-    SignalPrep --> PrePadding["Pre-Padding (Start of Sequence)"]
-    PrePadding --> LSTM["ECG1DNet (1D CNN + BiLSTM)"]
-    
-    RawImage["ECG Graph Image (Visual Scan)"] --> ImagePrep["Resize (128x128) & Standardize"]
-    ImagePrep --> ResNet["ECG2DNet (2D ResNet/CNN)"]
-    
-    Metadata["Demographics (Age, Sex, History)"] --> MetaFC["Meta Projection Network (MLP)"]
-    
-    LSTM --> Concatenate["Multimodal Fusion Layer"]
-    ResNet --> Concatenate
-    MetaFC --> Concatenate
-    
-    Concatenate --> Classifier["Clinical Classifier (MLP + Softmax)"]
-    Classifier --> Logits["Diagnostic Probabilities"]
-    Logits --> XAI["Grad-CAM Localization Map"]
-```
-
-#### Key Architecture & MLOps Specs:
-*   **ECG1DNet:** 1D Conv layers + BiLSTM utilizing **pre-padding sequence invariants** to prevent zero-padding from diluting the final hidden state classification signal.
-*   **ECG2DNet:** Custom ResNet capturing anomalies from plotted visual scans, regularized using 2D Spatial Dropout (`0.3`).
-*   **Explainability Gateway:** FastAPI backend that streams classification results paired with localized Grad-CAM anomaly intervals.
-
----
-
-### 🚀 Highlighted Systems
-
-#### 🛰️ ModelRoute-V2: Multi-Agent LLM Routing Engine
-*   **Description:** An intelligent local router that classifies prompt complexity to dynamically direct queries. Low-complexity prompts run on local quantized models (Llama-3-8B), while high-complexity prompts route to commercial APIs, optimizing cloud resources.
-*   **Results:** **64.2% API Cost Reduction** | **4.2ms Routing Latency** | **85M+ Tokens Optimized**
-*   **Tech Stack:** `PyTorch`, `Transformers`, `FastAPI`, `Docker`, `Llama-3`, `BERT`
-
-#### 🧬 DataSynth-LLM: Tabular Data Synthesizer
-*   **Description:** A GAN-based pipeline combined with an LLM agent feedback loop that synthesizes realistic, HIPAA-compliant tabular medical datasets. The GAN models the distribution while the LLM acts as an expert validator checking clinical coherence.
-*   **Results:** **98.7% Correlation Match** | **100.0% HIPAA Privacy Score** | **250 Epochs training cycles**
-*   **Tech Stack:** `CTGAN`, `Python`, `Llama-3-Agent`, `Pandas`, `SciPy`, `W&B`
-
-#### 👁️ VisionFlow: Edge Multi-Object Tracker
-*   **Description:** A computer vision pipeline deploying YOLOv8 and ByteTrack on low-power devices. Optimized via post-training static quantization (INT8) to achieve high frame rates.
-*   **Results:** **45.0 FPS on Raspberry Pi 4** | **91.2% MOTA Tracking Accuracy**
-*   **Tech Stack:** `YOLOv8`, `OpenCV`, `TensorRT`, `C++`, `Docker`, `ONNX`
-
----
-
-### 🛠️ Tech Stack & Arsenal
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Artificial Intelligence & DS** | `Python` `PyTorch` `TensorFlow` `Scikit-Learn` `Pandas` `NumPy` `Matplotlib` `Jupyter` |
-| **Frontend & Mobile Dev** | `TypeScript` `JavaScript` `React` `Next.js` `TailwindCSS` `Expo` `Redux` `HTML/CSS` |
-| **Backend & Cloud** | `Node.js` `Express` `MongoDB` `Firebase` `Supabase` `FastAPI` `PostgreSQL` |
-| **DevOps & Tooling** | `Git` `GitHub` `Docker` `Linux` `AWS` `Vercel` `Weights & Biases (W&B)` |
-
----
-
-### 📈 GitHub Analytics & Status
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <h3>🤖 AI & Data Science</h3>
+      <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" /><br/><br/>
+      <code>Pandas</code> <code>NumPy</code> <code>Scikit-Learn</code><br/>
+      <code>Matplotlib</code> <code>Jupyter</code>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <h3>💻 Frontend & Mobile</h3>
+      <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind" /><br/><br/>
+      <img src="https://skillicons.dev/icons?i=html,css,expo,redux" />
+    </td>
+    <td align="center" valign="top" width="33%">
+      <h3>⚙️ Backend & Cloud</h3>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" /><br/><br/>
+      <img src="https://skillicons.dev/icons?i=firebase,supabase,strapi" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&bg_color=090A0F&title_color=00F2FE&text_color=F8FAFC&icon_color=9B51E0&border_color=1E293B&hide_border=false" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=tokyonight&border_radius=8&hide_border=true" width="48%" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&bg_color=090A0F&title_color=00F2FE&text_color=F8FAFC&icon_color=9B51E0&border_color=1E293B&hide_border=false" width="48%" />
-  <img src="https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="48%" />
+  <h3>🛠 DevOps, Tools & Deployment</h3>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vercel,aws" />
 </div>
 
 <br/>
 
+---
+
+## 🚀 Featured Systems & Projects
+
+| Project / Repository | Description | Tech Highlights |
+| :--- | :--- | :--- |
+| **[🩺 CardioGuard](https://github.com/Raghuvaranlokati/cardioguard)** 🆕 | Multimodal Clinical ECG & Heart Rhythm Analyzer framework using 1D temporal/2D scan fusion network. | `PyTorch`, `BiLSTM`, `ResNet`, `Grad-CAM`, `FastAPI` |
+| **[Expense Saver Guru](https://your-nextjs-website-link.com)** 🆕 | Intelligent platform to track, manage, and optimize personal expenses. | `Next.js`, `React`, `AI` |
+| **[Noise Canceller](https://github.com/Raghuvaranlokati/noisecanceller)** 🆕 | AI-powered real-time noise cancellation system for audio processing. | `Python`, `Deep Learning` |
+| **[🌿 Rice Leaf](https://your-rice-leaf-website-link.com)** | Machine learning system for rice leaf disease detection and classification. | `Python`, `Deep Learning`, `Computer Vision` |
+| **📅 NextMeeting** | Real-time meeting scheduler with live chat and seamless video support. | `WebRTC`, `Socket.io`, `Node.js` |
+
+<br/>
+
+---
+
+## 📈 GitHub Analytics
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&bg_color=090A0F&color=00F2FE&line=9B51E0&point=00F2FE&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+
+  <br/><br/>
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=tokyonight&margin-w=10&margin-h=10&no-frame=true&no-bg=true" width="48%" />
+
 </div>
+
+<br/>
+
+---
+
+<div align="center">
+
+## 🐍 GitHub Contributions Matrix
+
+<img src="https://github.com/Raghuvaranlokati/Raghuvaranlokati/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=tokyonight&hide_border=true" alt="Activity Graph" />
+
+</div>
+
+<br/>
+
+---
+
+## 🧪 AI & ML Focus Areas
+
+> *Bridging Mathematical Rigor with Scalable Engineering*
+
+- **Data Engineering:** Data Cleaning, EDA, Statistical Modeling, and Predictive Analytics.
+- **Deep Learning:** Custom Architectures, Recommendation Systems, and NLP Foundations.
+- **MLOps:** Model Optimization, Deployment Pipelines, and AI-powered SaaS Integration.
 
 ---
 
@@ -123,16 +142,18 @@ graph TD
 ### 💡 Developer Quote
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
 
-<br/>
-
-### ☕ Fuel the Journey
-If you like my systems or open-source research, consider supporting my coding sprints!
 <br/><br/>
-<a href="https://www.buymeacoffee.com/raghuvaranl">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
-</a>
+
+### ☕ Support My Work
+If you like what I build, consider fueling my coding sessions! <br/><br/>
 <a href="https://ko-fi.com/raghuvaran">
   <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
 </a>
+<a href="https://www.buymeacoffee.com/raghuvaranl">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+</a>
+
+<br/><br/>
+*Building products that respect users. Building systems that scale. Building future-ready AI solutions.*
 
 </div>

@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=220&color=0:090A0F,50:0F172A,100:00F2FE&text=LOKATI%20RAGHUVARAN&fontSize=48&fontColor=F8FAFC&fontAlign=50&fontAlignY=42&animation=fadeIn&desc=Data%20Scientist%20%E2%80%A2%20Deep%20Learning%20Systems%20%E2%80%A2%20MLOps%20Engineer&descAlignY=62&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=220&color=0:07080D,50:0F172A,100:00F2FE&text=LOKATI%20RAGHUVARAN&fontSize=48&fontColor=F8FAFC&fontAlign=50&fontAlignY=42&animation=fadeIn&desc=Data%20Scientist%20%E2%80%A2%20Deep%20Learning%20Systems%20%E2%80%A2%20MLOps%20Engineer&descAlignY=62&descAlign=50" width="100%"/>
 
 <br/>
 
@@ -28,16 +28,16 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
-<!-- Social & Contact Badges -->
+<!-- Cybernetic Social & Contact Badges -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
   <a href="mailto:raghuvaranlokati@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-07080D?style=for-the-badge&logo=gmail&logoColor=00F2FE" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/">
+    <img src="https://img.shields.io/badge/LinkedIn-07080D?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" />
   </a>
   <a href="https://raghuvaran.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-07080D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-07080D?style=for-the-badge&logo=vercel&logoColor=9B51E0" alt="Portfolio" />
   </a>
 </p>
 
@@ -97,12 +97,12 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <div align="center">
   
-  <img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&bg_color=07080d&title_color=00f2fe&text_color=f8fafc&icon_color=9b51e0&border_color=1e293b&hide_border=false&border_radius=10" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raghuvaranlokati&background=07080d&title=00f2fe&currStreakLabel=9b51e0&currStreakNum=f8fafc&sideLabels=a5b4fc&sideNums=e2e8f0&ring=00f2fe&fire=9b51e0&border=1e293b&border_radius=10" width="48%" />
 
   <br/><br/>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&theme=tokyonight&border_radius=10&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&bg_color=07080d&title_color=00f2fe&text_color=f8fafc&border_color=1e293b&hide_border=false&border_radius=10" width="48%" />
   <img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=tokyonight&margin-w=10&margin-h=10&no-frame=true&no-bg=true" width="48%" />
 
 </div>
@@ -119,7 +119,7 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&theme=tokyonight&hide_border=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghuvaranlokati&bg_color=07080d&color=a5b4fc&line=00f2fe&point=9b51e0&area=true&hide_border=true" alt="Activity Graph" />
 
 </div>
 

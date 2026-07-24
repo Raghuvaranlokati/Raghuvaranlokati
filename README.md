@@ -95,13 +95,42 @@ I specialize in building high-performance predictive systems, custom deep learni
 
 ## 🚀 Featured Systems & Projects
 
-| Project / Repository | Description | Tech Highlights |
-| :--- | :--- | :--- |
-| **[🩺 CardioGuard](https://github.com/Raghuvaranlokati/cardioguard)** 🆕 | Multimodal Clinical ECG & Heart Rhythm Analyzer framework using 1D temporal/2D scan fusion network. | `PyTorch`, `BiLSTM`, `ResNet`, `Grad-CAM`, `FastAPI` |
-| **[Expense Saver Guru](https://your-nextjs-website-link.com)** 🆕 | Intelligent platform to track, manage, and optimize personal expenses. | `Next.js`, `React`, `AI` |
-| **[Noise Canceller](https://github.com/Raghuvaranlokati/noisecanceller)** 🆕 | AI-powered real-time noise cancellation system for audio processing. | `Python`, `Deep Learning` |
-| **[🌿 Rice Leaf](https://your-rice-leaf-website-link.com)** | Machine learning system for rice leaf disease detection and classification. | `Python`, `Deep Learning`, `Computer Vision` |
-| **📅 NextMeeting** | Real-time meeting scheduler with live chat and seamless video support. | `WebRTC`, `Socket.io`, `Node.js` |
+<table width="100%">
+  <thead>
+    <tr bgcolor="#0B1120">
+      <th align="left">📦 Project / Repository</th>
+      <th align="left">📝 Description</th>
+      <th align="left">⚡ Tech Highlights</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr bgcolor="#0B1120">
+      <td><b><a href="https://github.com/Raghuvaranlokati/cardioguard">🩺 CardioGuard</a></b> 🆕</td>
+      <td>Multimodal Clinical ECG & Heart Rhythm Analyzer framework using 1D temporal/2D scan fusion network.</td>
+      <td><code>PyTorch</code> <code>BiLSTM</code> <code>ResNet</code> <code>Grad-CAM</code> <code>FastAPI</code></td>
+    </tr>
+    <tr bgcolor="#0B1120">
+      <td><b><a href="https://your-nextjs-website-link.com">Expense Saver Guru</a></b> 🆕</td>
+      <td>Intelligent platform to track, manage, and optimize personal expenses.</td>
+      <td><code>Next.js</code> <code>React</code> <code>AI</code></td>
+    </tr>
+    <tr bgcolor="#0B1120">
+      <td><b><a href="https://github.com/Raghuvaranlokati/noisecanceller">Noise Canceller</a></b> 🆕</td>
+      <td>AI-powered real-time noise cancellation system for audio processing.</td>
+      <td><code>Python</code> <code>Deep Learning</code></td>
+    </tr>
+    <tr bgcolor="#0B1120">
+      <td><b><a href="https://your-rice-leaf-website-link.com">🌿 Rice Leaf</a></b></td>
+      <td>Machine learning system for rice leaf disease detection and classification.</td>
+      <td><code>Python</code> <code>Deep Learning</code> <code>Computer Vision</code></td>
+    </tr>
+    <tr bgcolor="#0B1120">
+      <td><b>📅 NextMeeting</b></td>
+      <td>Real-time meeting scheduler with live chat and seamless video support.</td>
+      <td><code>WebRTC</code> <code>Socket.io</code> <code>Node.js</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <br/>
 

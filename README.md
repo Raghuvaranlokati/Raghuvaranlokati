@@ -149,7 +149,7 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 
 <br/><br/>
 
-`FastAPI` · `PyTorch` · `TensorFlow` · `LangChain` · `RAG` · `Vector Search` · `PostgreSQL` · `Redis` · `Kafka` · `Docker` · `Kubernetes`
+<img src="assets/featured-technologies-animated.svg" alt="Raghuvaranlokati Featured Technologies Banner" width="100%"/>
 
 </div>
 

@@ -145,36 +145,6 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 
 <div align="center"><img src="assets/tech-stack-animated.svg" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
 
-<br/>
-
-**Languages**
-
-<p align="left"><img src="https://skillicons.dev/icons?i=python,js,ts,cpp,html,css,bash&theme=dark" alt="Languages"/></p>
-
-**AI, Machine Learning & Deep Learning**
-
-<p align="left"><img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark"/>&nbsp;
-<img src="https://img.shields.io/badge/Scikit--Learn-1C1C1C?style=flat-square&logoColor=38BDF8"/>
-<img src="https://img.shields.io/badge/Pandas-1C1C1C?style=flat-square&logoColor=150458"/>
-<img src="https://img.shields.io/badge/NumPy-1C1C1C?style=flat-square&logoColor=013243"/>
-<img src="https://img.shields.io/badge/OpenCV-1C1C1C?style=flat-square&logoColor=5C3EE8"/>
-<img src="https://img.shields.io/badge/Hugging%20Face-1C1C1C?style=flat-square&logoColor=FFD21E"/>
-<img src="https://img.shields.io/badge/LangChain-1C1C1C?style=flat-square&logoColor=22D3EE"/>
-<img src="https://img.shields.io/badge/LlamaIndex-1C1C1C?style=flat-square&logoColor=8B5CF6"/></p>
-
-**Frontend & Mobile**
-
-<p align="left"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,html,css&theme=dark"/>&nbsp;
-<img src="https://img.shields.io/badge/Expo-1C1C1C?style=flat-square&logoColor=000000"/></p>
-
-**Backend, Platform & Data**
-
-<p align="left"><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb,redis,graphql,firebase,supabase&theme=dark"/></p>
-
-**DevOps, Cloud & Infrastructure**
-
-<p align="left"><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,git,github,vercel,linux,postman&theme=dark"/></p>
-
 <!-- ========================================================================= -->
 <!-- SLEEK SHIMMERING DIVIDER                                                  -->
 <!-- ========================================================================= -->

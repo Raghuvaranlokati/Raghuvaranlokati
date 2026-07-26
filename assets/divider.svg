@@ -1,81 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 6" width="100%" height="6" preserveAspectRatio="none">
+<svg width="1200" height="6" viewBox="0 0 1200 6" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section divider">
   <defs>
-    <!-- Dark theme baseline background track gradient -->
-    <linearGradient id="track-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B1120" stop-opacity="1" />
-      <stop offset="10%" stop-color="#1E293B" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#334155" stop-opacity="0.4" />
-      <stop offset="90%" stop-color="#1E293B" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#0B1120" stop-opacity="1" />
+    <linearGradient id="divGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="85%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Repeating neon shimmer linear gradient (Cyan -> Violet -> Purple -> Magenta -> Cyan -> Violet -> Purple -> Magenta) -->
-    <linearGradient id="neon-shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="14.28%" stop-color="#4FACFE" />
-      <stop offset="28.57%" stop-color="#9B51E0" />
-      <stop offset="42.85%" stop-color="#FF0844" />
-      <stop offset="57.14%" stop-color="#00F2FE" />
-      <stop offset="71.42%" stop-color="#4FACFE" />
-      <stop offset="85.71%" stop-color="#9B51E0" />
-      <stop offset="100%" stop-color="#FF0844" />
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Edge blend mask fading out ends into dark theme #0B1120 -->
-    <linearGradient id="edge-mask-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
-      <stop offset="4%" stop-color="#FFFFFF" stop-opacity="1" />
-      <stop offset="96%" stop-color="#FFFFFF" stop-opacity="1" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-
-    <mask id="edge-mask">
-      <rect x="0" y="0" width="1200" height="6" fill="url(#edge-mask-grad)" rx="3" />
+    <mask id="shimmerMask">
+      <rect x="-300" y="0" width="300" height="6" fill="url(#shimmer)">
+        <animate attributeName="x" from="-300" to="1200" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
     </mask>
-
-    <clipPath id="divider-clip">
-      <rect x="0" y="0" width="1200" height="6" rx="3" />
-    </clipPath>
   </defs>
 
-  <style>
-    @keyframes shimmer-slide {
-      0% {
-        transform: translateX(-1200px);
-      }
-      100% {
-        transform: translateX(0px);
-      }
-    }
-
-    @keyframes pulse-glow {
-      0%, 100% {
-        opacity: 0.85;
-      }
-      50% {
-        opacity: 1.0;
-      }
-    }
-
-    .shimmer-track {
-      animation: shimmer-slide 4s linear infinite;
-      will-change: transform;
-    }
-
-    .divider-container {
-      animation: pulse-glow 3s ease-in-out infinite;
-    }
-  </style>
-
-  <!-- Main Divider Assembly -->
-  <g class="divider-container" mask="url(#edge-mask)">
-    <!-- Base track background -->
-    <rect x="0" y="0" width="1200" height="6" fill="#0B1120" rx="3" />
-    <rect x="0" y="0" width="1200" height="6" fill="url(#track-grad)" rx="3" />
-
-    <!-- Animated Shimmer Layer -->
-    <g clip-path="url(#divider-clip)">
-      <rect class="shimmer-track" x="0" y="0" width="2400" height="6" fill="url(#neon-shimmer-grad)" rx="3" opacity="0.9" />
-    </g>
-  </g>
+  <rect x="0" y="2" width="1200" height="2" rx="1" fill="url(#divGrad)"/>
+  <rect x="0" y="2" width="1200" height="2" rx="1" fill="#ffffff" mask="url(#shimmerMask)"/>
 </svg>

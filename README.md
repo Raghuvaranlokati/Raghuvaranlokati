@@ -143,7 +143,7 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 <!-- ========================================================================= -->
 ### Tech Stack & Arsenal
 
-<div align="center"><img src="assets/tech-stack-animated.svg?v=3" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
+<div align="center"><img src="assets/tech-stack-animated.svg?v=20260726" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
 
 <!-- ========================================================================= -->
 <!-- SLEEK SHIMMERING DIVIDER                                                  -->

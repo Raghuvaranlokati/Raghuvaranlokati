@@ -57,7 +57,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Raghuvaranlokati/Raghuvaranlokati/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="100%"/>
+<img src="assets/github-contribution-grid-snake.svg?v=20260726" alt="Raghuvaranlokati Cybernetic Contribution Grid Snake" width="100%"/>
 
 </div>
 

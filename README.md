@@ -57,7 +57,24 @@
 
 <br/><br/>
 
-<img src="assets/github-contribution-grid-snake.svg?v=20260726" alt="Raghuvaranlokati Cybernetic Contribution Grid Snake" width="100%"/>
+<table width="100%">
+  <thead>
+    <tr bgcolor="#0B1120">
+      <th align="left">
+        <font color="#67E8F9"><b>⚡ REAL-TIME CONTRIBUTION GRID SNAKE ENGINE</b></font>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr bgcolor="#0B1120">
+      <td align="center">
+        <br/>
+        <img src="https://raw.githubusercontent.com/Raghuvaranlokati/Raghuvaranlokati/output/github-contribution-grid-snake-dark.svg" alt="Raghuvaranlokati Real Contribution Grid Snake" width="100%"/>
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 

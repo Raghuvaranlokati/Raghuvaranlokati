@@ -143,6 +143,10 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 <!-- ========================================================================= -->
 ### Tech Stack & Arsenal
 
+<div align="center"><img src="assets/tech-stack-animated.svg" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
+
+<br/>
+
 **Languages**
 
 <p align="left"><img src="https://skillicons.dev/icons?i=python,js,ts,cpp,html,css,bash&theme=dark" alt="Languages"/></p>

@@ -1,420 +1,480 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="850" height="420">
   <defs>
-    <!-- Background Radial Gradient -->
-    <radialGradient id="bgGlow" cx="50%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#0B1120" stop-opacity="1"/>
-    </radialGradient>
-    
-    <!-- Neon Accent Line Gradients -->
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#67E8F9"/>
-    </linearGradient>
-    
-    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A855F7"/>
-      <stop offset="100%" stop-color="#C084FC"/>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1120"/>
     </linearGradient>
 
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Glassmorphic Card Fill Gradient -->
+    <linearGradient id="card-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.90"/>
+    </linearGradient>
+
+    <!-- Category Accent Gradients -->
+    <linearGradient id="grad-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <linearGradient id="grad-blue-purple" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A855F7"/>
     </linearGradient>
 
-    <!-- Glass Tile Background Gradient -->
-    <linearGradient id="tileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
+    <linearGradient id="grad-purple-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
     </linearGradient>
 
-    <!-- Icon Vector Definitions -->
-    <!-- 1. Python -->
-    <g id="icon-python">
-      <path fill="#3776AB" d="M11.9 2C6.5 2 6.8 2.3 6.8 4.6v2.3h5.2v.8H4.7C2.4 7.7 2 9.5 2 12c0 2.6.4 4.3 2.7 4.3h1.6v-2.4c0-2.6 2.2-4.8 4.8-4.8h5.1V6.8c0-2.3-.6-4.8-4.3-4.8zm-2.8 1.5a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8z"/>
-      <path fill="#FFD43B" d="M12.1 22c5.4 0 5.1-.3 5.1-2.6v-2.3h-5.2v-.8h7.3c2.3 0 2.7-1.8 2.7-4.3 0-2.6-.4-4.3-2.7-4.3h-1.6v2.4c0 2.6-2.2 4.8-4.8 4.8H7.8v2.3c0 2.3.6 4.8 4.3 4.8zm2.8-1.5a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8z"/>
-    </g>
-    
-    <!-- 2. PyTorch -->
-    <g id="icon-pytorch">
-      <path fill="#EE4C2C" d="M15.5 3.2L14 4.7a7.5 7.5 0 1 1-3.6-1.4V1A9.5 9.5 0 1 0 18 5.7l-2.5-2.5zm-3.5 4a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6z"/>
-    </g>
+    <linearGradient id="grad-emerald-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
 
-    <!-- 3. TensorFlow -->
-    <g id="icon-tensorflow">
-      <path fill="#FF6F00" d="M1.7 5.7L12 0l10.3 5.7v11.4L12 22.8 1.7 17.1V5.7zm10.3.9l-5.6 3.1v6.3l5.6 3.1 5.6-3.1V9.7L12 6.6z"/>
-      <path fill="#FFA726" d="M12 6.6l5.6 3.1v6.3L12 19.1V6.6z"/>
-    </g>
+    <!-- Animated Gradient for Divider / Accent Sweep -->
+    <linearGradient id="sweep-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#3B82F6;#A855F7;#EC4899;#10B981;#22D3EE" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#A855F7;#EC4899;#10B981;#22D3EE;#3B82F6" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#EC4899;#10B981;#22D3EE;#3B82F6;#A855F7" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
 
-    <!-- 4. OpenCV -->
-    <g id="icon-opencv">
-      <circle cx="12" cy="7" r="4.5" fill="none" stroke="#5C3EE8" stroke-width="2.5"/>
-      <circle cx="7" cy="16" r="4.5" fill="none" stroke="#0000FF" stroke-width="2.5"/>
-      <circle cx="17" cy="16" r="4.5" fill="none" stroke="#FF0000" stroke-width="2.5"/>
-    </g>
-
-    <!-- 5. Hugging Face -->
-    <g id="icon-huggingface">
-      <circle cx="12" cy="12" r="10" fill="#FFD21E"/>
-      <path d="M7 10c0-1 1-2 2-2s2 1 2 2" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
-      <path d="M13 10c0-1 1-2 2-2s2 1 2 2" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
-      <path d="M8 14.5c1 1.5 2.5 2.5 4 2.5s3-1 4-2.5" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
-    </g>
-
-    <!-- 6. Scikit-Learn -->
-    <g id="icon-scikitlearn">
-      <circle cx="8" cy="12" r="5" fill="#F7931E"/>
-      <circle cx="16" cy="12" r="5" fill="#3499CD"/>
-      <path d="M10 8l4 8" stroke="#FFFFFF" stroke-width="2"/>
-    </g>
-
-    <!-- 7. Pandas -->
-    <g id="icon-pandas">
-      <rect x="5" y="4" width="3" height="16" rx="1.5" fill="#150458"/>
-      <rect x="10" y="7" width="3" height="13" rx="1.5" fill="#E70488"/>
-      <rect x="15" y="10" width="3" height="10" rx="1.5" fill="#00B0FF"/>
-    </g>
-
-    <!-- 8. NumPy -->
-    <g id="icon-numpy">
-      <path fill="#4DABCF" d="M4 6h3.5l6.5 9.5V6H17v12h-3.5L7 8.5V18H4V6z"/>
-    </g>
-
-    <!-- 9. MLflow -->
-    <g id="icon-mlflow">
-      <path fill="#0194E2" d="M3 16L9 6l5 7 4-5 3 8H3z"/>
-    </g>
-
-    <!-- 10. Docker -->
-    <g id="icon-docker">
-      <path fill="#2496ED" d="M13.9 11.2h2.2v2.1h-2.2zm-2.7 0h2.2v2.1h-2.2zm-2.7 0h2.2v2.1H8.5zm-2.7 0h2.2v2.1H5.8zm5.4-2.4h2.2v2.1h-2.2zm-2.7 0h2.2v2.1H8.5zm-2.7 0h2.2v2.1H5.8zm5.4-2.4h2.2v2.1h-2.2zM1 14.8c1.3 3.6 4.9 6.2 9 6.2 5.5 0 10-4.2 10.5-9.5.7-.3 1.8-.4 2.5.2-.2-1.2-1-2.2-2.1-2.6-.8-.3-1.8-.2-2.5.3-1.1-.9-2.5-1.4-4-1.4H1v6.8z"/>
-    </g>
-
-    <!-- 11. CUDA -->
-    <g id="icon-cuda">
-      <rect x="3" y="3" width="18" height="18" rx="3" fill="#76B900"/>
-      <text x="12" y="15" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="8" text-anchor="middle">CUDA</text>
-    </g>
-
-    <!-- 12. Kubernetes -->
-    <g id="icon-kubernetes">
-      <path fill="#326CE5" d="M12 2L3.5 7v10L12 22l8.5-5V7L12 2zm0 3.2l5.5 3.2v6.4L12 18l-5.5-3.2V8.4L12 5.2z"/>
-      <circle cx="12" cy="11.6" r="2.5" fill="#326CE5"/>
-    </g>
-
-    <!-- 13. TypeScript -->
-    <g id="icon-typescript">
-      <rect x="2" y="2" width="20" height="20" rx="3" fill="#3178C6"/>
-      <path fill="#FFFFFF" d="M11.5 16.5h-2v-7h-2.5v-1.8h7v1.8h-2.5v7zm4.3 0c-1.6 0-2.8-.8-3.3-2.1l1.6-.9c.3.8 1 1.2 1.8 1.2.8 0 1.3-.4 1.3-.9 0-.6-.5-.8-1.5-1.1-1.4-.4-2.4-.9-2.4-2.2 0-1.4 1.2-2.3 2.8-2.3 1.4 0 2.4.7 2.9 1.8l-1.5.9c-.3-.6-.8-.9-1.4-.9-.7 0-1.1.3-1.1.8 0 .5.4.7 1.4 1 1.5.4 2.5 1 2.5 2.3 0 1.5-1.2 2.4-3.1 2.4z"/>
-    </g>
-
-    <!-- 14. React -->
-    <g id="icon-react">
-      <ellipse cx="12" cy="12" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.4" transform="rotate(30 12 12)"/>
-      <ellipse cx="12" cy="12" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.4" transform="rotate(90 12 12)"/>
-      <ellipse cx="12" cy="12" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.4" transform="rotate(150 12 12)"/>
-      <circle cx="12" cy="12" r="1.8" fill="#61DAFB"/>
-    </g>
-
-    <!-- 15. Next.js -->
-    <g id="icon-nextjs">
-      <circle cx="12" cy="12" r="10" fill="#000000" stroke="#FFFFFF" stroke-width="1.2"/>
-      <path fill="#FFFFFF" d="M14.8 16.5l-5.6-7.3v7.3H7.5V7.5h1.8l5.5 7.2V7.5h1.7v9s0 0 0 0z"/>
-    </g>
-
-    <!-- 16. Node.js -->
-    <g id="icon-nodejs">
-      <path fill="#339933" d="M12 2L2.5 7.5v11L12 24l9.5-5.5v-11L12 2zm0 3.2l6.8 3.9v7.8L12 20.8l-6.8-3.9V9.1L12 5.2z"/>
-    </g>
-
-    <!-- 17. FastAPI -->
-    <g id="icon-fastapi">
-      <circle cx="12" cy="12" r="10" fill="#009688"/>
-      <path fill="#FFFFFF" d="M11 17l6-7h-4l1-5-6 7h4l-1 5z"/>
-    </g>
-
-    <!-- 18. PostgreSQL -->
-    <g id="icon-postgresql">
-      <path fill="#4169E1" d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.3 9.3.5.1.7-.2.7-.5v-1.7c-2.5.5-3-1.2-3-1.2-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4 1 1.4 1 .8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2-.2-4.1-1-4.1-4.5 0-1 .4-1.9 1-2.6-.1-.2-.4-1.2.1-2.5 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.5.7.7 1 1.6 1 2.6 0 3.5-2.1 4.3-4.1 4.5.3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5A10 10 0 0 0 22 12c0-5.5-4.5-10-10-10z"/>
-    </g>
-
-    <!-- 19. Git -->
-    <g id="icon-git">
-      <path fill="#F05032" d="M21.7 10.7L13.3 2.3c-.4-.4-1.1-.4-1.5 0L9.4 4.7 11.9 7.2c.4-.1.9 0 1.2.3.4.4.5 1 .3 1.5l2.4 2.4c.5-.2 1.1-.1 1.5.3.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.4-.4-.5-1-.3-1.5l-2.3-2.3v5.4c.2.1.4.3.5.5.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1.2-.2.4-.4.7-.5v-5.5c-.3-.1-.5-.3-.7-.5-.4-.4-.5-1-.3-1.5L8.4 6.2 2.3 12.3c-.4.4-.4 1.1 0 1.5l8.4 8.4c.4.4 1.1.4 1.5 0l9.5-9.5c.4-.4.4-1.1 0-1.5z"/>
-    </g>
-
-    <!-- 20. Linux -->
-    <g id="icon-linux">
-      <path fill="#FCC624" d="M12 2c-3.3 0-6 2.7-6 6v4c0 3.3 2.7 6 6 6s6-2.7 6-6V8c0-3.3-2.7-6-6-6zm-2 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0z"/>
-      <path fill="#000000" d="M12 14c-2 0-3-1-3-1s1 2 3 2 3-2 3-2-1 1-3 1z"/>
-    </g>
-
-    <!-- 21. Tailwind CSS -->
-    <g id="icon-tailwindcss">
-      <path fill="#06B6D4" d="M12 6c-3.3 0-5.5 1.6-6.6 4.9 1.3-1.6 2.7-2.2 4.4-1.6 1 .4 1.7 1.1 2.5 1.9C13.5 12.4 15 14 18.6 14c3.3 0 5.5-1.6 6.6-4.9-1.3 1.6-2.7 2.2-4.4 1.6-1-.4-1.7-1.1-2.5-1.9C17.1 7.6 15.6 6 12 6zm-6.6 8c-3.3 0-5.5 1.6-6.6 4.9 1.3-1.6 2.7-2.2 4.4-1.6 1 .4 1.7 1.1 2.5 1.9C6.9 20.4 8.4 22 12 22c3.3 0 5.5-1.6 6.6-4.9-1.3 1.6-2.7 2.2-4.4 1.6-1-.4-1.7-1.1-2.5-1.9C10.5 15.6 9 14 5.4 14z"/>
-    </g>
+    <!-- Glow Filters -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
 
   <style>
-    /* Typography & Base Styles */
-    .bg-canvas { fill: #0B1120; }
-    .text-header { font-family: 'JetBrains Mono', 'Fira Code', 'Segoe UI', system-ui, sans-serif; font-weight: 700; fill: #F8FAFC; font-size: 20px; letter-spacing: 1.5px; }
-    .text-subheader { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 500; fill: #67E8F9; font-size: 11px; letter-spacing: 2px; }
-    .card-title { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
-    .icon-label { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 11px; font-weight: 500; fill: #94A3B8; }
-
-    /* Category Glassmorphism Cards */
-    .card-ai { fill: #0F172A; fill-opacity: 0.75; stroke: #06B6D4; stroke-width: 1.25; stroke-opacity: 0.4; filter: drop-shadow(0 4px 20px rgba(6, 182, 212, 0.15)); }
-    .card-mlops { fill: #0F172A; fill-opacity: 0.75; stroke: #A855F7; stroke-width: 1.25; stroke-opacity: 0.4; filter: drop-shadow(0 4px 20px rgba(168, 85, 247, 0.15)); }
-    .card-fullstack { fill: #0F172A; fill-opacity: 0.75; stroke: #3B82F6; stroke-width: 1.25; stroke-opacity: 0.4; filter: drop-shadow(0 4px 20px rgba(59, 130, 246, 0.15)); }
-
-    /* Floating Bob Animations */
-    .float-1 { animation: floatBob1 4s ease-in-out infinite; }
-    .float-2 { animation: floatBob2 4.8s ease-in-out infinite; }
-    .float-3 { animation: floatBob3 5.2s ease-in-out infinite; }
-
-    @keyframes floatBob1 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-5px) rotate(0.8deg); }
+    text {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .mono {
+      font-family: 'Fira Code', 'Courier New', monospace;
     }
 
-    @keyframes floatBob2 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-7px) rotate(-1deg); }
+    /* Keyframe Animations */
+    @keyframes floatingBob {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-4px);
+      }
     }
 
-    @keyframes floatBob3 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-4px) rotate(0.5deg); }
+    @keyframes neonGlowPulse {
+      0%, 100% {
+        opacity: 0.75;
+        filter: drop-shadow(0 0 2px rgba(34, 211, 238, 0.4));
+      }
+      50% {
+        opacity: 1;
+        filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.9));
+      }
     }
-
-    /* Neon Glow Pulse Animations */
-    .pulse-cyan { animation: neonPulseCyan 3s infinite alternate; }
-    .pulse-purple { animation: neonPulsePurple 3.5s infinite alternate; }
-    .pulse-blue { animation: neonPulseBlue 3.2s infinite alternate; }
-
-    @keyframes neonPulseCyan {
-      0% { filter: drop-shadow(0 0 4px rgba(6, 182, 212, 0.3)); }
-      100% { filter: drop-shadow(0 0 14px rgba(6, 182, 212, 0.8)); }
-    }
-
-    @keyframes neonPulsePurple {
-      0% { filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.3)); }
-      100% { filter: drop-shadow(0 0 14px rgba(168, 85, 247, 0.8)); }
-    }
-
-    @keyframes neonPulseBlue {
-      0% { filter: drop-shadow(0 0 4px rgba(59, 130, 246, 0.3)); }
-      100% { filter: drop-shadow(0 0 14px rgba(59, 130, 246, 0.8)); }
-    }
-
-    /* Shimmering Particle Animation */
-    .particle { opacity: 0.2; animation: particleShimmer 4s ease-in-out infinite alternate; }
-    .particle-p1 { animation-delay: 0s; animation-duration: 3.5s; }
-    .particle-p2 { animation-delay: 1.2s; animation-duration: 4.2s; }
-    .particle-p3 { animation-delay: 2.1s; animation-duration: 3.8s; }
-    .particle-p4 { animation-delay: 0.7s; animation-duration: 5s; }
 
     @keyframes particleShimmer {
-      0% { opacity: 0.1; transform: translateY(0px) scale(0.8); }
-      100% { opacity: 0.75; transform: translateY(-12px) scale(1.3); }
+      0%, 100% {
+        opacity: 0.15;
+        transform: scale(0.8);
+      }
+      50% {
+        opacity: 0.85;
+        transform: scale(1.3);
+      }
     }
 
-    /* Tile Micro-Interactions */
-    .icon-tile {
-      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), fill 0.3s ease;
-      cursor: pointer;
+    @keyframes gradientSweep {
+      0% {
+        stroke-dashoffset: 800;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
     }
-    .icon-tile:hover {
-      transform: translateY(-3px) scale(1.04);
+
+    /* Animation Classes */
+    .card-tl { animation: floatingBob 4.2s ease-in-out infinite 0s; }
+    .card-tr { animation: floatingBob 4.6s ease-in-out infinite 1.1s; }
+    .card-bl { animation: floatingBob 4.4s ease-in-out infinite 0.5s; }
+    .card-br { animation: floatingBob 4.8s ease-in-out infinite 1.6s; }
+
+    .glow-pulse { animation: neonGlowPulse 3s ease-in-out infinite; }
+    
+    .particle-1 { animation: particleShimmer 3.5s ease-in-out infinite 0s; transform-origin: center; }
+    .particle-2 { animation: particleShimmer 4.2s ease-in-out infinite 1.2s; transform-origin: center; }
+    .particle-3 { animation: particleShimmer 2.8s ease-in-out infinite 0.6s; transform-origin: center; }
+    .particle-4 { animation: particleShimmer 3.9s ease-in-out infinite 1.8s; transform-origin: center; }
+    .particle-5 { animation: particleShimmer 4.5s ease-in-out infinite 0.3s; transform-origin: center; }
+
+    .sweep-line {
+      stroke-dasharray: 800;
+      animation: gradientSweep 12s linear infinite;
+    }
+
+    .badge-item {
+      transition: all 0.25s ease;
     }
   </style>
 
-  <!-- Background Rect -->
-  <rect width="900" height="460" rx="16" fill="url(#bgGlow)" stroke="#1E293B" stroke-width="2"/>
+  <!-- Canvas Backdrop -->
+  <rect width="850" height="420" fill="url(#bg-grad)" rx="16"/>
+  <rect width="848" height="418" x="1" y="1" fill="none" stroke="#1E293B" stroke-width="1.5" rx="15"/>
 
-  <!-- Background Shimmering Particles -->
+  <!-- Background Particle Shimmer Circles -->
   <g class="particles">
-    <circle cx="100" cy="60" r="1.5" fill="#06B6D4" class="particle particle-p1"/>
-    <circle cx="280" cy="40" r="2" fill="#67E8F9" class="particle particle-p2"/>
-    <circle cx="450" cy="70" r="1.5" fill="#A855F7" class="particle particle-p3"/>
-    <circle cx="750" cy="50" r="2" fill="#3B82F6" class="particle particle-p4"/>
-    <circle cx="850" cy="180" r="1.5" fill="#06B6D4" class="particle particle-p2"/>
-    <circle cx="50" cy="380" r="2" fill="#A855F7" class="particle particle-p1"/>
-    <circle cx="420" cy="420" r="1.5" fill="#60A5FA" class="particle particle-p3"/>
-    <circle cx="820" cy="400" r="2" fill="#C084FC" class="particle particle-p4"/>
+    <circle class="particle-1" cx="90" cy="35" r="3" fill="#22D3EE" opacity="0.4"/>
+    <circle class="particle-2" cx="760" cy="45" r="2.5" fill="#A855F7" opacity="0.5"/>
+    <circle class="particle-3" cx="425" cy="210" r="3.5" fill="#3B82F6" opacity="0.3"/>
+    <circle class="particle-4" cx="110" cy="385" r="2" fill="#EC4899" opacity="0.4"/>
+    <circle class="particle-5" cx="770" cy="380" r="3" fill="#10B981" opacity="0.5"/>
+    <circle class="particle-2" cx="280" cy="110" r="2" fill="#67E8F9" opacity="0.35"/>
+    <circle class="particle-4" cx="590" cy="310" r="2.5" fill="#A855F7" opacity="0.4"/>
   </g>
 
-  <!-- Header Banner -->
-  <g transform="translate(450, 45)" text-anchor="middle">
-    <text class="text-header" y="0">TECH STACK &amp; ARCHITECTURAL ARSENAL</text>
-    <text class="text-subheader" y="22">AI/ML • DATA SCIENCE &amp; MLOPS • FULL-STACK ENGINEERING</text>
+  <!-- Subtle Radial Background Glow Behind Cards -->
+  <circle cx="215" cy="140" r="130" fill="#22D3EE" opacity="0.045"/>
+  <circle cx="630" cy="140" r="130" fill="#3B82F6" opacity="0.045"/>
+  <circle cx="215" cy="320" r="130" fill="#A855F7" opacity="0.045"/>
+  <circle cx="630" cy="320" r="130" fill="#10B981" opacity="0.045"/>
+
+  <!-- Header Banner Area -->
+  <g transform="translate(20, 14)">
+    <!-- Pulse Live Status Dot -->
+    <circle class="glow-pulse" cx="10" cy="12" r="4.5" fill="#22D3EE"/>
+    <circle cx="10" cy="12" r="8.5" fill="none" stroke="#22D3EE" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Title Text -->
+    <text x="26" y="16" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="1">CYBERCHECKALL <tspan fill="#67E8F9" font-weight="500">// TECH STACK ARCHITECTURE</tspan></text>
+    <text x="810" y="16" text-anchor="end" fill="#94A3B8" font-size="11" font-weight="500" class="mono">WEB2APP OS v2.0</text>
+    
+    <!-- Animated Sweep Line -->
+    <line class="sweep-line" x1="0" y1="27" x2="810" y2="27" stroke="url(#sweep-grad)" stroke-width="1.5" opacity="0.85"/>
   </g>
 
-  <!-- Header Accent Line -->
-  <path d="M 250 72 L 650 72" stroke="url(#cyanGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-
-  <!-- CATEGORY 1: AI & MACHINE LEARNING -->
-  <g transform="translate(25, 90)">
-    <!-- Glass Card Container -->
-    <rect class="card-ai float-1" width="270" height="340" rx="14"/>
+  <!-- ================= TOP-LEFT CARD: LANGUAGES ================= -->
+  <g class="card-tl">
+    <!-- Card Container Surface -->
+    <rect x="20" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Neon Top Accent Glow Strip -->
+    <rect x="36" y="52" width="110" height="2" fill="url(#grad-cyan)" rx="1"/>
     
     <!-- Card Header -->
-    <g transform="translate(20, 28)">
-      <rect x="0" y="0" width="4" height="20" rx="2" fill="url(#cyanGrad)" class="pulse-cyan"/>
-      <text class="card-title" x="12" y="15" fill="#67E8F9">AI &amp; Machine Learning</text>
+    <circle cx="38" cy="74" r="5" fill="#22D3EE" filter="url(#glow-cyan)"/>
+    <text x="50" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">LANGUAGES</text>
+    <text x="398" y="78" text-anchor="end" fill="#22D3EE" font-size="10" font-weight="600" class="mono">6 CORE</text>
+    <line x1="34" y1="90" x2="400" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Badges (y=100) -->
+    <!-- 1. JavaScript -->
+    <g class="badge-item" transform="translate(34, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#F7DF1E"/>
+      <text x="18" y="22" text-anchor="middle" fill="#000000" font-size="10" font-weight="900">JS</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">JavaScript</text>
     </g>
 
-    <!-- Icon Grid (2 cols x 3 rows) -->
-    <!-- Python Tile -->
-    <g transform="translate(18, 55)" class="icon-tile float-1">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-python" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Python</text>
+    <!-- 2. TypeScript -->
+    <g class="badge-item" transform="translate(158, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#3178C6"/>
+      <text x="18" y="22" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="900">TS</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">TypeScript</text>
     </g>
-    <!-- PyTorch Tile -->
-    <g transform="translate(140, 55)" class="icon-tile float-2">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-pytorch" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">PyTorch</text>
+
+    <!-- 3. Python -->
+    <g class="badge-item" transform="translate(282, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#3776AB"/>
+      <path d="M 14,14 L 22,14 C 23.5,14 23.5,18 22,18 L 18,18 L 18,22 C 18,23.5 14,23.5 14,22 Z" fill="#FFD43B"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Python</text>
     </g>
-    <!-- TensorFlow Tile -->
-    <g transform="translate(18, 145)" class="icon-tile float-3">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-tensorflow" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">TensorFlow</text>
+
+    <!-- Row 2 Badges (y=146) -->
+    <!-- 4. HTML5 -->
+    <g class="badge-item" transform="translate(34, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <polygon points="8,8 28,8 25,26 18,28 11,26" fill="#E34F26"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="900">5</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">HTML5</text>
     </g>
-    <!-- OpenCV Tile -->
-    <g transform="translate(140, 145)" class="icon-tile float-1">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-opencv" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">OpenCV</text>
+
+    <!-- 5. CSS3 -->
+    <g class="badge-item" transform="translate(158, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <polygon points="8,8 28,8 25,26 18,28 11,26" fill="#1572B6"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="900">3</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">CSS3</text>
     </g>
-    <!-- Hugging Face Tile -->
-    <g transform="translate(18, 235)" class="icon-tile float-2">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-huggingface" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Hugging Face</text>
-    </g>
-    <!-- Scikit-Learn Tile -->
-    <g transform="translate(140, 235)" class="icon-tile float-3">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-scikitlearn" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Scikit-Learn</text>
+
+    <!-- 6. Shell -->
+    <g class="badge-item" transform="translate(282, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#4EAA25"/>
+      <text x="18" y="22" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700" class="mono">&gt;_</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Shell</text>
     </g>
   </g>
 
-  <!-- CATEGORY 2: DATA SCIENCE & MLOPS -->
-  <g transform="translate(315, 90)">
-    <!-- Glass Card Container -->
-    <rect class="card-mlops float-2" width="270" height="340" rx="14"/>
+  <!-- ================= TOP-RIGHT CARD: WEB & MOBILE ================= -->
+  <g class="card-tr">
+    <!-- Card Container Surface -->
+    <rect x="435" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Neon Top Accent Glow Strip -->
+    <rect x="451" y="52" width="110" height="2" fill="url(#grad-blue-purple)" rx="1"/>
     
     <!-- Card Header -->
-    <g transform="translate(20, 28)">
-      <rect x="0" y="0" width="4" height="20" rx="2" fill="url(#purpleGrad)" class="pulse-purple"/>
-      <text class="card-title" x="12" y="15" fill="#C084FC">Data Science &amp; MLOps</text>
+    <circle cx="453" cy="74" r="5" fill="#3B82F6" filter="url(#glow-blue)"/>
+    <text x="465" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">WEB &amp; MOBILE</text>
+    <text x="813" y="78" text-anchor="end" fill="#60A5FA" font-size="10" font-weight="600" class="mono">6 STACK</text>
+    <line x1="449" y1="90" x2="815" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Badges (y=100) -->
+    <!-- 1. Next.js 14 -->
+    <g class="badge-item" transform="translate(449, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="10" fill="#000000" stroke="#64748B" stroke-width="1"/>
+      <path d="M 13,23 L 13,13 L 20,23 M 20,13 L 20,19" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Next.js 14</text>
     </g>
 
-    <!-- Icon Grid (2 cols x 3 rows) -->
-    <!-- Pandas Tile -->
-    <g transform="translate(18, 55)" class="icon-tile float-2">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-pandas" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Pandas</text>
+    <!-- 2. React -->
+    <g class="badge-item" transform="translate(573, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="2.5" fill="#61DAFB"/>
+      <ellipse cx="18" cy="18" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.2" transform="rotate(30 18 18)"/>
+      <ellipse cx="18" cy="18" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.2" transform="rotate(90 18 18)"/>
+      <ellipse cx="18" cy="18" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.2" transform="rotate(150 18 18)"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">React</text>
     </g>
-    <!-- NumPy Tile -->
-    <g transform="translate(140, 55)" class="icon-tile float-3">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-numpy" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">NumPy</text>
+
+    <!-- 3. Redux Toolkit -->
+    <g class="badge-item" transform="translate(697, 100)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="9" fill="#764ABC"/>
+      <path d="M 13,18 Q 18,12 23,18 Q 18,24 13,18 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+      <text x="32" y="22" fill="#E2E8F0" font-size="10.5" font-weight="600">Redux Toolkit</text>
     </g>
-    <!-- MLflow Tile -->
-    <g transform="translate(18, 145)" class="icon-tile float-1">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-mlflow" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">MLflow</text>
+
+    <!-- Row 2 Badges (y=146) -->
+    <!-- 4. Tailwind CSS -->
+    <g class="badge-item" transform="translate(449, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <path d="M 12,18 C 13,15 15,14 17,16 C 16,18 17,20 19,20 C 21,20 23,18 24,15 C 23,18 21,19 19,17 C 20,15 19,13 17,13 C 15,13 13,15 12,18 Z" fill="#06B6D4"/>
+      <text x="32" y="22" fill="#E2E8F0" font-size="10.5" font-weight="600">Tailwind CSS</text>
     </g>
-    <!-- Docker Tile -->
-    <g transform="translate(140, 145)" class="icon-tile float-2">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-docker" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Docker</text>
+
+    <!-- 5. PWA -->
+    <g class="badge-item" transform="translate(573, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#5A0FC8"/>
+      <path d="M 19,11 L 14,18 L 17,18 L 16,25 L 22,17 L 19,17 Z" fill="#FFD700"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">PWA</text>
     </g>
-    <!-- CUDA Tile -->
-    <g transform="translate(18, 235)" class="icon-tile float-3">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-cuda" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">CUDA</text>
-    </g>
-    <!-- Kubernetes Tile -->
-    <g transform="translate(140, 235)" class="icon-tile float-1">
-      <rect width="112" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-kubernetes" x="44" y="14" width="24" height="24"/>
-      <text class="icon-label" x="56" y="56" text-anchor="middle">Kubernetes</text>
+
+    <!-- 6. Web2App Engine -->
+    <g class="badge-item" transform="translate(697, 146)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="9" fill="url(#grad-blue-purple)"/>
+      <rect x="13" y="13" width="8" height="10" rx="1.5" fill="#FFFFFF"/>
+      <path d="M 15,16 L 19,16" stroke="#3B82F6" stroke-width="1"/>
+      <text x="32" y="22" fill="#E2E8F0" font-size="9.5" font-weight="600">Web2App Eng</text>
     </g>
   </g>
 
-  <!-- CATEGORY 3: FULL-STACK & ENGINEERING -->
-  <g transform="translate(605, 90)">
-    <!-- Glass Card Container -->
-    <rect class="card-fullstack float-3" width="270" height="340" rx="14"/>
+  <!-- ================= BOTTOM-LEFT CARD: BACKEND & CLOUD ================= -->
+  <g class="card-bl">
+    <!-- Card Container Surface -->
+    <rect x="20" y="235" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Neon Top Accent Glow Strip -->
+    <rect x="36" y="235" width="110" height="2" fill="url(#grad-purple-pink)" rx="1"/>
     
     <!-- Card Header -->
-    <g transform="translate(20, 28)">
-      <rect x="0" y="0" width="4" height="20" rx="2" fill="url(#blueGrad)" class="pulse-blue"/>
-      <text class="card-title" x="12" y="15" fill="#60A5FA">Full-Stack Engineering</text>
+    <circle cx="38" cy="257" r="5" fill="#A855F7" filter="url(#glow-purple)"/>
+    <text x="50" y="261" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">BACKEND &amp; CLOUD</text>
+    <text x="398" y="261" text-anchor="end" fill="#C084FC" font-size="10" font-weight="600" class="mono">10 SERVICES</text>
+    <line x1="34" y1="271" x2="400" y2="271" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Badges (y=277, height=32) -->
+    <!-- 1. Node.js -->
+    <g class="badge-item" transform="translate(34, 277)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <polygon points="18,10 25,14 25,22 18,26 11,22 11,14" fill="#339933"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="900">JS</text>
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Node.js</text>
     </g>
 
-    <!-- Icon Grid (3 cols x 3 rows for 9 items) -->
-    <!-- Row 1 -->
-    <g transform="translate(14, 55)" class="icon-tile float-3">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-typescript" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">TypeScript</text>
-    </g>
-    <g transform="translate(97, 55)" class="icon-tile float-1">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-react" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">React</text>
-    </g>
-    <g transform="translate(180, 55)" class="icon-tile float-2">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-nextjs" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">Next.js</text>
+    <!-- 2. Express -->
+    <g class="badge-item" transform="translate(158, 277)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="8" fill="#323232" stroke="#FFFFFF" stroke-width="0.8"/>
+      <text x="18" y="19" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700" class="mono">ex</text>
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Express</text>
     </g>
 
-    <!-- Row 2 -->
-    <g transform="translate(14, 145)" class="icon-tile float-1">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-nodejs" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">Node.js</text>
-    </g>
-    <g transform="translate(97, 145)" class="icon-tile float-2">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-fastapi" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">FastAPI</text>
-    </g>
-    <g transform="translate(180, 145)" class="icon-tile float-3">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-postgresql" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">PostgreSQL</text>
+    <!-- 3. WebRTC Mesh -->
+    <g class="badge-item" transform="translate(282, 277)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="13" cy="12" r="2.5" fill="#22D3EE"/>
+      <circle cx="23" cy="12" r="2.5" fill="#3B82F6"/>
+      <circle cx="18" cy="21" r="2.5" fill="#A855F7"/>
+      <line x1="13" y1="12" x2="23" y2="12" stroke="#67E8F9" stroke-width="0.8"/>
+      <line x1="13" y1="12" x2="18" y2="21" stroke="#67E8F9" stroke-width="0.8"/>
+      <line x1="23" y1="12" x2="18" y2="21" stroke="#67E8F9" stroke-width="0.8"/>
+      <text x="32" y="20" fill="#E2E8F0" font-size="10" font-weight="600">WebRTC Mesh</text>
     </g>
 
-    <!-- Row 3 -->
-    <g transform="translate(14, 235)" class="icon-tile float-2">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-git" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">Git</text>
+    <!-- Row 2 Badges (y=314, 4 compact items width=87) -->
+    <!-- 4. Socket.io -->
+    <g class="badge-item" transform="translate(34, 314)">
+      <rect width="87" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="15" cy="16" r="7" fill="#010101" stroke="#FFFFFF" stroke-width="0.8"/>
+      <path d="M 16,11 L 13,16 L 15.5,16 L 14,21 L 18,15 L 15.5,15 Z" fill="#FFFFFF"/>
+      <text x="27" y="20" fill="#E2E8F0" font-size="10" font-weight="600">Socket.io</text>
     </g>
-    <g transform="translate(97, 235)" class="icon-tile float-3">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-linux" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">Linux</text>
+
+    <!-- 5. REST/GraphQL -->
+    <g class="badge-item" transform="translate(127, 314)">
+      <rect width="87" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <polygon points="14,9 20,12 20,19 14,22 8,19 8,12" fill="#E10098"/>
+      <text x="24" y="20" fill="#E2E8F0" font-size="9" font-weight="600">REST/GQL</text>
     </g>
-    <g transform="translate(180, 235)" class="icon-tile float-1">
-      <rect width="76" height="75" rx="10" fill="url(#tileGrad)" stroke="#1E293B" stroke-width="1"/>
-      <use href="#icon-tailwindcss" x="26" y="14" width="24" height="24"/>
-      <text class="icon-label" x="38" y="56" text-anchor="middle">Tailwind</text>
+
+    <!-- 6. Postgres -->
+    <g class="badge-item" transform="translate(220, 314)">
+      <rect width="87" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="7" y="10" width="14" height="12" rx="2" fill="#336791"/>
+      <path d="M 7,14 L 21,14" stroke="#FFFFFF" stroke-width="0.8"/>
+      <text x="26" y="20" fill="#E2E8F0" font-size="10" font-weight="600">Postgres</text>
+    </g>
+
+    <!-- 7. Mongo -->
+    <g class="badge-item" transform="translate(313, 314)">
+      <rect width="86" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <path d="M 14,9 C 19,11 19,21 14,23 C 9,21 9,11 14,9 Z" fill="#47A248"/>
+      <text x="26" y="20" fill="#E2E8F0" font-size="10" font-weight="600">Mongo</text>
+    </g>
+
+    <!-- Row 3 Badges (y=351, height=32) -->
+    <!-- 8. Redis -->
+    <g class="badge-item" transform="translate(34, 351)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="9" width="18" height="4" rx="1" fill="#DC382D"/>
+      <rect x="8" y="14" width="18" height="4" rx="1" fill="#DC382D"/>
+      <rect x="8" y="19" width="18" height="4" rx="1" fill="#DC382D"/>
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Redis</text>
+    </g>
+
+    <!-- 9. AWS -->
+    <g class="badge-item" transform="translate(158, 351)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="7" width="20" height="18" rx="3" fill="#FF9900"/>
+      <text x="18" y="19" text-anchor="middle" fill="#000000" font-size="8" font-weight="900">AWS</text>
+      <text x="34" y="20" fill="#E2E8F0" font-size="11" font-weight="600">AWS</text>
+    </g>
+
+    <!-- 10. Vercel Edge -->
+    <g class="badge-item" transform="translate(282, 351)">
+      <rect width="116" height="32" rx="7" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="7" width="20" height="18" rx="3" fill="#000000" stroke="#475569" stroke-width="0.8"/>
+      <polygon points="18,10 23,19 13,19" fill="#FFFFFF"/>
+      <text x="33" y="20" fill="#E2E8F0" font-size="10.5" font-weight="600">Vercel Edge</text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM-RIGHT CARD: DEVOPS & TOOLS ================= -->
+  <g class="card-br">
+    <!-- Card Container Surface -->
+    <rect x="435" y="235" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Neon Top Accent Glow Strip -->
+    <rect x="451" y="235" width="110" height="2" fill="url(#grad-emerald-cyan)" rx="1"/>
+    
+    <!-- Card Header -->
+    <circle cx="453" cy="257" r="5" fill="#10B981" filter="url(#glow-emerald)"/>
+    <text x="465" y="261" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">DEVOPS &amp; TOOLS</text>
+    <text x="813" y="261" text-anchor="end" fill="#34D399" font-size="10" font-weight="600" class="mono">6 TOOLS</text>
+    <line x1="449" y1="271" x2="815" y2="271" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Badges (y=283) -->
+    <!-- 1. Docker -->
+    <g class="badge-item" transform="translate(449, 283)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#2496ED"/>
+      <rect x="11" y="12" width="3" height="3" fill="#FFFFFF"/>
+      <rect x="15" y="12" width="3" height="3" fill="#FFFFFF"/>
+      <rect x="19" y="12" width="3" height="3" fill="#FFFFFF"/>
+      <rect x="15" y="16" width="9" height="4" rx="1" fill="#FFFFFF"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Docker</text>
+    </g>
+
+    <!-- 2. Git -->
+    <g class="badge-item" transform="translate(573, 283)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="13" y="13" width="10" height="10" fill="#F05032" transform="rotate(45 18 18)"/>
+      <circle cx="18" cy="14" r="1.5" fill="#FFFFFF"/>
+      <circle cx="15" cy="20" r="1.5" fill="#FFFFFF"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Git</text>
+    </g>
+
+    <!-- 3. GitHub Actions -->
+    <g class="badge-item" transform="translate(697, 283)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="9" fill="#2088FF"/>
+      <polygon points="16,13 22,18 16,23" fill="#FFFFFF"/>
+      <text x="32" y="22" fill="#E2E8F0" font-size="10" font-weight="600">GH Actions</text>
+    </g>
+
+    <!-- Row 2 Badges (y=331) -->
+    <!-- 4. Linux -->
+    <g class="badge-item" transform="translate(449, 331)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="8" width="20" height="20" rx="4" fill="#FCC624"/>
+      <text x="18" y="22" text-anchor="middle" fill="#000000" font-size="9" font-weight="900">LNX</text>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Linux</text>
+    </g>
+
+    <!-- 5. Postman -->
+    <g class="badge-item" transform="translate(573, 331)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="9" fill="#FF6C37"/>
+      <path d="M 13,21 L 23,15 M 23,15 L 18,15 M 23,15 L 21,19" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Postman</text>
+    </g>
+
+    <!-- 6. Kafka -->
+    <g class="badge-item" transform="translate(697, 331)">
+      <rect width="116" height="36" rx="8" fill="#0F172A" opacity="0.9" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="18" r="9" fill="#231F20" stroke="#22D3EE" stroke-width="1"/>
+      <circle cx="18" cy="14" r="1.5" fill="#FFFFFF"/>
+      <circle cx="14" cy="21" r="1.5" fill="#FFFFFF"/>
+      <circle cx="22" cy="21" r="1.5" fill="#FFFFFF"/>
+      <text x="34" y="22" fill="#E2E8F0" font-size="11.5" font-weight="600">Kafka</text>
     </g>
   </g>
 </svg>

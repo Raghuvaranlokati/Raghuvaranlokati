@@ -143,7 +143,15 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 <!-- ========================================================================= -->
 ### Tech Stack & Arsenal
 
-<div align="center"><img src="assets/tech-stack-animated.svg" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
+<div align="center">
+
+<img src="assets/tech-stack-animated.svg" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/>
+
+<br/><br/>
+
+`FastAPI` · `PyTorch` · `TensorFlow` · `LangChain` · `RAG` · `Vector Search` · `PostgreSQL` · `Redis` · `Kafka` · `Docker` · `Kubernetes`
+
+</div>
 
 <!-- ========================================================================= -->
 <!-- SLEEK SHIMMERING DIVIDER                                                  -->
@@ -165,21 +173,7 @@ Requests flow from the client through a FastAPI / Next.js Gateway into the **AI 
 <!-- ========================================================================= -->
 <img src="assets/divider.svg" width="100%" height="6" alt="Divider"/>
 
-<!-- ========================================================================= -->
-<!-- 8. FEATURED TECHNOLOGIES                                                  -->
-<!-- ========================================================================= -->
-### Featured Technologies
 
-<div align="center">
-
-`FastAPI` · `PyTorch` · `TensorFlow` · `LangChain` · `RAG` · `Vector Search` · `PostgreSQL` · `Redis` · `Kafka` · `Docker` · `Kubernetes`
-
-</div>
-
-<!-- ========================================================================= -->
-<!-- SLEEK SHIMMERING DIVIDER                                                  -->
-<!-- ========================================================================= -->
-<img src="assets/divider.svg" width="100%" height="6" alt="Divider"/>
 
 <!-- ========================================================================= -->
 <!-- 9. GITHUB ANALYTICS & ACTIVITY                                            -->

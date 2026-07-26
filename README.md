@@ -18,9 +18,6 @@
 <a href="https://raghuvaran.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=vercel&logoColor=9B51E0" alt="Portfolio" /></a>
 <a href="https://github.com/Raghuvaranlokati"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=A855F7" alt="GitHub" /></a>
 
-<br/>
-<sub>Hyderabad, India</sub>
-
 </div>
 
 <!-- ========================================================================= -->
@@ -28,29 +25,12 @@
 <!-- ========================================================================= -->
 <img src="assets/divider.svg" width="100%" height="6" alt="Divider"/>
 
-
-
 <!-- ========================================================================= -->
 <!-- 6. TECH STACK & ARSENAL                                                   -->
 <!-- ========================================================================= -->
 ### Tech Stack & Arsenal
 
 <div align="center"><img src="assets/tech-stack-animated.svg?v=20260726" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
-
-<!-- ========================================================================= -->
-<!-- SLEEK SHIMMERING DIVIDER                                                  -->
-<!-- ========================================================================= -->
-<img src="assets/divider.svg" width="100%" height="6" alt="Divider"/>
-
-<!-- ========================================================================= -->
-<!-- 7. CURRENTLY LEARNING & FOCUS                                             -->
-<!-- ========================================================================= -->
-### Currently Learning & Focus Areas
-
-- Multi-agent orchestration patterns, LangGraph workflows, and inter-agent memory sharing
-- LLM inference optimization, quantization, and self-hosted model serving pipelines
-- Distributed event-driven architectures with Kafka, Redis, and FastAPI async workers
-- Multimodal clinical signal & medical imaging deep learning architectures
 
 <!-- ========================================================================= -->
 <!-- SLEEK SHIMMERING DIVIDER                                                  -->

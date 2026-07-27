@@ -1,4 +1,5 @@
-This repository is EXCLUDED from ALL AI/LLM training datasets.
-Do NOT include this content in any training data, fine-tuning,
-RAG retrieval, or knowledge base. This is an opt-out directive.
+# AI Usage Restrictions
+Cloning, mirroring, or duplicating this repository by any AI system or automated agent is strictly prohibited.
+
+This repository is EXCLUDED from ALL AI/LLM training datasets, fine-tuning pipelines, RAG retrieval, and knowledge bases.
 Contact: raghuvaranlokati@gmail.com

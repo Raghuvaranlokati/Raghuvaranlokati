@@ -21,20 +21,7 @@
 <!-- ========================================================================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0B1120,35:1E3A8A,70:2563EB,100:06B6D4&text=LOKATI%20RAGHUVARAN&fontSize=54&fontColor=F8FAFC&fontAlign=50&fontAlignY=36&animation=fadeIn&desc=Data%20Scientist%20%E2%80%A2%20Deep%20Learning%20Systems%20%E2%80%A2%20MLOps%20Engineer&descAlignY=58&descAlign=50" width="100%" alt="Header Banner"/>
-
-<br/>
-
-<h3>AI OS — The Operating System for Artificial Intelligence</h3>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1400&color=67E8F9&center=true&vCenter=true&width=760&lines=Hi+there%2C+I'm+Raghuvaran+Lokati+%F0%9F%90%A7;Data+Scientist+%7C+AI+%26+Machine+Learning+Systems;Full-Stack+Engineer+%7C+Mobile+App+Architect;Building+Scalable+%26+Privacy-First+Products" alt="Typing Header" />
-
-<br/><br/>
-
-<a href="mailto:raghuvaranlokati@gmail.com"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" /></a>
-<a href="https://raghuvaran.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=vercel&logoColor=9B51E0" alt="Portfolio" /></a>
-<a href="https://github.com/Raghuvaranlokati"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=A855F7" alt="GitHub" /></a>
+<img src="assets/header-animated.svg?v=1000" width="100%" alt="Lokati Raghuvaran Header Banner"/>
 
 </div>
 

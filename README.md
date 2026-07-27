@@ -36,10 +36,6 @@
         <font color="#67E8F9" size="3"><b>👁️ REAL-TIME PROFILE VISITORS &amp; ANALYTICS COUNTER</b></font>
         <br/><br/>
         <a href="https://github.com/Raghuvaranlokati" target="_blank">
-          <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=22D3EE&amp;style=for-the-badge&amp;label=TOTAL+PROFILE+VIEWS&amp;labelColor=0F172A" alt="Total Profile Views" />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://github.com/Raghuvaranlokati" target="_blank">
           <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=3B82F6&amp;style=for-the-badge&amp;label=LIVE+VISITORS&amp;labelColor=0F172A" alt="Live Visitors" />
         </a>
         <br/><br/>

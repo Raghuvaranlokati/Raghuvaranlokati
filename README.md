@@ -33,8 +33,6 @@
     <tr bgcolor="#0B1120">
       <th align="center">
         <br/>
-        <font color="#67E8F9" size="3"><b>👁️ REAL-TIME PROFILE VISITORS &amp; ANALYTICS COUNTER</b></font>
-        <br/><br/>
         <a href="https://github.com/Raghuvaranlokati" target="_blank">
           <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=3B82F6&amp;style=for-the-badge&amp;label=LIVE+VISITORS&amp;labelColor=0F172A" alt="Live Visitors" />
         </a>

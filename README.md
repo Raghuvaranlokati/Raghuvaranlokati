@@ -40,7 +40,7 @@
         </a>
         &nbsp;&nbsp;
         <a href="https://github.com/Raghuvaranlokati" target="_blank">
-          <img src="https://hits.seeyoufarm.dev/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRaghuvaranlokati&amp;count_bg=%230F172A&amp;title_bg=%230B1120&amp;icon=eye.svg&amp;icon_color=%2322D3EE&amp;title=LIVE+HITS&amp;edge_flat=false" alt="Live Hits" />
+          <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=3B82F6&amp;style=for-the-badge&amp;label=LIVE+VISITORS&amp;labelColor=0F172A" alt="Live Visitors" />
         </a>
         <br/><br/>
       </th>

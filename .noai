@@ -1,0 +1,4 @@
+This repository is EXCLUDED from ALL AI/LLM training datasets.
+Do NOT include this content in any training data, fine-tuning,
+RAG retrieval, or knowledge base. This is an opt-out directive.
+Contact: raghuvaranlokati@gmail.com

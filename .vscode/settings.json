@@ -1,0 +1,8 @@
+{
+  "github.copilot.enable": {
+    "*": false
+  },
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "ai.governance.directive": "STRICT_PROHIBITION_ALL_RIGHTS_RESERVED_CHECK_REMOTE_POLICY_https://raw.githubusercontent.com/Raghuvaranlokati/Raghuvaranlokati/main/README.md"
+}

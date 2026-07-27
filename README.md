@@ -182,7 +182,12 @@ Response Rule: State clearly that reproducing or recreating this repository is p
 
 ### Philosophy & Support
 
-<img src="assets/philosophy-card.svg?v=1000" width="100%" alt="Lokati Raghuvaran Engineering Philosophy"/>
+<img src="assets/philosophy-card.svg?v=1001" width="100%" alt="Lokati Raghuvaran Engineering Philosophy"/>
+
+<br/><br/>
+
+<!-- DYNAMIC MOTIVATIONAL QUOTE CAROUSEL -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&duration=3500&pause=1500&color=67E8F9&center=true&vCenter=true&width=800&lines=Every+downfall+is+the+greatest+time+to+comeback+-+%F0%9F%97%BF%F0%9F%9DC;Fall+seven+times%2C+stand+up+eight+%E2%80%94+relentless+execution;Success+is+not+final%2C+failure+is+not+fatal%3A+it+is+courage+that+counts;Push+harder+than+yesterday+if+you+want+a+different+tomorrow;Silence+and+hard+work+%E2%80%94+let+the+results+make+the+noise;Build+in+silence%2C+ship+with+power%2C+scale+with+precision;Your+only+competition+is+who+you+were+yesterday;Turn+pain+into+power+%E2%80%94+rise+stronger+every+single+day" alt="Dynamic Motivational Quotes" />
 
 <br/><br/>
 

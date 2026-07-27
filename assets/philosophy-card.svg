@@ -50,13 +50,13 @@
   <text x="35" y="65" fill="#22D3EE" font-size="52" font-weight="900" opacity="0.3" filter="url(#ph-glow)">“</text>
 
   <!-- Quote Line 1 -->
-  <text x="75" y="62" fill="#F8FAFC" font-size="14" font-weight="600" class="quote-text">
-    Great AI engineers don't just train models — they build reliable, scalable,
+  <text x="75" y="60" fill="#67E8F9" font-size="15" font-weight="700" class="mono">
+    "Every downfall is the greatest time to comeback - 🗿👊"
   </text>
 
   <!-- Quote Line 2 -->
-  <text x="75" y="88" fill="#F8FAFC" font-size="14" font-weight="600" class="quote-text">
-    intelligent systems that hold up under real traffic, real failure modes, and real users.
+  <text x="75" y="88" fill="#F8FAFC" font-size="13.5" font-weight="600" class="quote-text">
+    Great AI engineers don't just train models — they build &amp; ship intelligent systems.
   </text>
 
   <!-- Author Attribution Badge -->

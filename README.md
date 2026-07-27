@@ -27,8 +27,26 @@
 
 <br/><br/>
 
-<!-- REAL PROFILE VIEWS COUNTER -->
-<a href="https://github.com/Raghuvaranlokati"><img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&color=22D3EE&style=for-the-badge&label=PROFILE+VIEWS" alt="Raghuvaranlokati Profile Views" /></a>
+<!-- REAL-TIME PROFILE VISITORS UI CONTAINER -->
+<table width="100%">
+  <thead>
+    <tr bgcolor="#0B1120">
+      <th align="center">
+        <br/>
+        <font color="#67E8F9" size="3"><b>👁️ REAL-TIME PROFILE VISITORS &amp; ANALYTICS COUNTER</b></font>
+        <br/><br/>
+        <a href="https://github.com/Raghuvaranlokati" target="_blank">
+          <img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=22D3EE&amp;style=for-the-badge&amp;label=TOTAL+PROFILE+VIEWS&amp;labelColor=0F172A" alt="Total Profile Views" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/Raghuvaranlokati" target="_blank">
+          <img src="https://hits.seeyoufarm.dev/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRaghuvaranlokati&amp;count_bg=%230F172A&amp;title_bg=%230B1120&amp;icon=eye.svg&amp;icon_color=%2322D3EE&amp;title=LIVE+HITS&amp;edge_flat=false" alt="Live Hits" />
+        </a>
+        <br/><br/>
+      </th>
+    </tr>
+  </thead>
+</table>
 
 <br/><br/>
 

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="850" height="110">
+  <defs>
+    <linearGradient id="tr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="tr-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="tr-sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <!-- Trophy Badge Orbs -->
+    <linearGradient id="gold-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="purple-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="cyan-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="rose-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="emerald-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="blue-orb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .mono { font-family: 'Fira Code', monospace; }
+    @keyframes badgeBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-3px); }
+    }
+    .b1 { animation: badgeBob 3.5s ease-in-out infinite 0s; }
+    .b2 { animation: badgeBob 4.0s ease-in-out infinite 0.7s; }
+    .b3 { animation: badgeBob 3.8s ease-in-out infinite 1.4s; }
+    .b4 { animation: badgeBob 4.2s ease-in-out infinite 0.3s; }
+    .b5 { animation: badgeBob 3.6s ease-in-out infinite 1.1s; }
+    .b6 { animation: badgeBob 3.9s ease-in-out infinite 1.8s; }
+  </style>
+
+  <rect width="100%" height="100%" fill="url(#tr-bg)" rx="12"/>
+  <rect x="8" y="8" width="834" height="94" rx="10" fill="url(#tr-glass)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="25" y="8" width="140" height="2" fill="url(#tr-sweep)" rx="1"/>
+
+  <!-- Header -->
+  <text x="25" y="24" fill="#F8FAFC" font-size="11" font-weight="700" letter-spacing="0.8">GITHUB ACHIEVEMENTS &amp; SYSTEM TROPHIES</text>
+  <text x="825" y="24" text-anchor="end" fill="#67E8F9" font-size="10" font-weight="600" class="mono">6 BADGES UNLOCKED</text>
+
+  <!-- 6 Trophy Badges Row (y=38) -->
+  <!-- 1. MLOps Architect -->
+  <g class="b1" transform="translate(25, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#gold-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">🏆</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">MLOps Engine</text>
+    <text x="44" y="38" fill="#F59E0B" font-size="9" font-weight="600" class="mono">GOLD RANK</text>
+  </g>
+
+  <!-- 2. Deep Learning Pro -->
+  <g class="b2" transform="translate(160, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#purple-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">🧠</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Deep Learning</text>
+    <text x="44" y="38" fill="#A855F7" font-size="9" font-weight="600" class="mono">EXPERT</text>
+  </g>
+
+  <!-- 3. FastAPI & Async -->
+  <g class="b3" transform="translate(295, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#22D3EE" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#cyan-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">⚡</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Async FastAPI</text>
+    <text x="44" y="38" fill="#22D3EE" font-size="9" font-weight="600" class="mono">HIGH SPEED</text>
+  </g>
+
+  <!-- 4. AI Security Governance -->
+  <g class="b4" transform="translate(430, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#F43F5E" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#rose-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">🛡️</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">AI Security</text>
+    <text x="44" y="38" fill="#F43F5E" font-size="9" font-weight="600" class="mono">PROTECTED</text>
+  </g>
+
+  <!-- 5. 45+ Stars -->
+  <g class="b5" transform="translate(565, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#emerald-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">🌟</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Star Gazer</text>
+    <text x="44" y="38" fill="#10B981" font-size="9" font-weight="600" class="mono">45+ STARS</text>
+  </g>
+
+  <!-- 6. 830+ Commits -->
+  <g class="b6" transform="translate(700, 38)">
+    <rect width="125" height="52" rx="8" fill="#0F172A" stroke="#3B82F6" stroke-width="1.2"/>
+    <circle cx="22" cy="26" r="14" fill="url(#blue-orb)"/>
+    <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">📊</text>
+    <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Committer</text>
+    <text x="44" y="38" fill="#3B82F6" font-size="9" font-weight="600" class="mono">830+ COMMITS</text>
+  </g>
+</svg>

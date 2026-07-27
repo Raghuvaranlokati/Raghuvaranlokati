@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" width="400" height="170">
+  <defs>
+    <linearGradient id="tl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="tl-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="bar-py" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="bar-ts" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178C6"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="bar-js" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7DF1E"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="bar-cpp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00599C"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="bar-web" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E34F26"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .mono { font-family: 'Fira Code', monospace; }
+    @keyframes barGrow {
+      0% { width: 0px; }
+    }
+    .b-py { animation: barGrow 1.5s ease-out forwards; }
+  </style>
+
+  <rect width="100%" height="100%" fill="url(#tl-bg)" rx="12"/>
+  <rect x="8" y="8" width="384" height="154" rx="10" fill="url(#tl-glass)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="20" y="8" width="80" height="2" fill="url(#bar-py)" rx="1"/>
+
+  <!-- Title -->
+  <text x="24" y="28" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="0.6">TOP LANGUAGES &amp; STACK DISTRIBUTION</text>
+
+  <!-- Multi-Color Distribution Bar -->
+  <g transform="translate(24, 40)">
+    <rect x="0" y="0" width="168" height="8" rx="4" fill="url(#bar-py)"/>
+    <rect x="171" y="0" width="77" height="8" rx="4" fill="url(#bar-ts)"/>
+    <rect x="251" y="0" width="52" height="8" rx="4" fill="url(#bar-js)"/>
+    <rect x="306" y="0" width="28" height="8" rx="4" fill="url(#bar-cpp)"/>
+    <rect x="337" y="0" width="24" height="8" rx="4" fill="url(#bar-web)"/>
+  </g>
+
+  <!-- Language Legend Rows -->
+  <g transform="translate(24, 66)">
+    <!-- Python -->
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="4" fill="#22D3EE"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" font-weight="600">Python</text>
+      <text x="150" y="9" fill="#67E8F9" font-size="11" font-weight="700" class="mono">48.0%</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(180, 0)">
+      <circle cx="6" cy="6" r="4" fill="#3B82F6"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" font-weight="600">TypeScript</text>
+      <text x="140" y="9" fill="#60A5FA" font-size="11" font-weight="700" class="mono">22.0%</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g transform="translate(0, 28)">
+      <circle cx="6" cy="6" r="4" fill="#A855F7"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" font-weight="600">JavaScript</text>
+      <text x="150" y="9" fill="#C084FC" font-size="11" font-weight="700" class="mono">15.0%</text>
+    </g>
+
+    <!-- C++ -->
+    <g transform="translate(180, 28)">
+      <circle cx="6" cy="6" r="4" fill="#EC4899"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" font-weight="600">C++</text>
+      <text x="140" y="9" fill="#F472B6" font-size="11" font-weight="700" class="mono">8.0%</text>
+    </g>
+
+    <!-- HTML / CSS -->
+    <g transform="translate(0, 56)">
+      <circle cx="6" cy="6" r="4" fill="#10B981"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" font-weight="600">HTML5 &amp; CSS3</text>
+      <text x="150" y="9" fill="#34D399" font-size="11" font-weight="700" class="mono">7.0%</text>
+    </g>
+  </g>
+</svg>

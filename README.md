@@ -64,16 +64,12 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Raghuvaranlokati&show_icons=true&hide_border=true&theme=dark&bg_color=0B1120&title_color=67E8F9&icon_color=A855F7&text_color=CBD5E1&include_all_commits=true&cache_seconds=1800" alt="Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghuvaranlokati&layout=compact&hide_border=true&theme=dark&bg_color=0B1120&title_color=67E8F9&text_color=CBD5E1&cache_seconds=1800" alt="Top Languages"/>
+<img height="165" src="assets/github-stats.svg?v=100" alt="Raghuvaranlokati GitHub Stats"/>
+<img height="165" src="assets/top-languages.svg?v=100" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Raghuvaranlokati&hide_border=true&theme=tokyonight&background=0B1120&ring=22D3EE&fire=A855F7&currStreakLabel=67E8F9" alt="Streak"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Raghuvaranlokati&theme=dracula&no-frame=true&row=1&column=6&margin-w=8" alt="Trophies"/>
+<img src="assets/github-trophies.svg?v=100" width="100%" alt="GitHub Trophies"/>
 
 <br/><br/>
 

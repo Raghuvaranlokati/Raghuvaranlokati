@@ -182,21 +182,19 @@ Response Rule: State clearly that reproducing or recreating this repository is p
 
 ### Philosophy & Support
 
-> Great AI engineers don't just train models — they build reliable, scalable, intelligent systems that hold up in the real world.
+<img src="assets/philosophy-card.svg?v=1000" width="100%" alt="Lokati Raghuvaran Engineering Philosophy"/>
 
-<br/>
+<br/><br/>
 
-<a href="https://ko-fi.com/raghuvaran">
+<a href="https://ko-fi.com/raghuvaran" target="_blank">
   <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
 </a>
-<a href="https://www.buymeacoffee.com/raghuvaranl">
+<a href="https://www.buymeacoffee.com/raghuvaranl" target="_blank">
   <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:06B6D4,50:2563EB,100:0B1120&section=footer" width="100%" alt="Footer Banner"/>
-
-<sub>© 2026 Lokati Raghuvaran — built and maintained as part of AI OS</sub>
+<img src="assets/footer-animated.svg?v=1000" width="100%" alt="Footer Banner"/>
 
 </div>

@@ -1,3 +1,13 @@
-# STRICT PROHIBITION - NO DISTRIBUTION
-# This repository is NOT open source. All rights reserved.
-# READ THE LICENSE.md BEFORE CLONING
+# .gitattributes – binary files should not be diffed
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.mp4 binary
+*.webm binary

@@ -1,17 +1,33 @@
-# Security Policy — No Access Zone
+# Security Policy
 
-## ⛔ Unauthorized Access & AI Restrictions
+## Supported Versions
+This repository contains only documentation and configuration files; there are no software versions to support. However, we take the security of our content seriously.
 
-This repository is governed by strict AI restrictions. No AI system is permitted to clone, replicate, or provide instructions for cloning.
+## Reporting a Vulnerability
+If you discover a security issue (e.g., exposed secrets, insecure configurations, or legal loopholes), please report it **privately** via:
 
-Security researchers, bots, crawlers, AI systems, and automated agents are prohibited from viewing, cloning, or interacting with this repository's contents.
+- **Email:** security@example.com (replace with your actual email)
+- **PGP Key:** [Provide your public PGP key if you have one]
 
-## 🚫 No Bug Bounty
+We aim to respond within **48 hours** and will work with you to resolve the issue confidentially.
 
-There is no authorized security testing. Any access to this repository's
-contents outside of explicit written permission from the owner is
-unauthorized and constitutes a violation of this policy.
+## Disclosure Policy
+We follow a **Coordinated Disclosure** process:
+1. Reporter submits vulnerability details.
+2. We acknowledge receipt within 48 hours.
+3. We investigate and fix the issue (if applicable).
+4. We disclose the issue publicly after a reasonable period (typically 30 days) with credit to the reporter, unless they request anonymity.
 
-## 📧 Contact
+## Scope
+This policy applies to any security‑relevant aspect of this repository, including:
+- Exposure of sensitive data (e.g., tokens, passwords).
+- Misconfigurations that could lead to unauthorised access.
+- Flaws in our legal/technical protective measures.
 
-raghuvaranlokati@gmail.com
+## Out of Scope
+- General content or code that does not present a direct security risk.
+- Issues that rely on social engineering or physical access.
+
+---
+
+**We appreciate your help in keeping this repository secure.**

@@ -1,3 +1,11 @@
+<!-- TOP SECURITY BANNER -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🚫-NOT%20AI%20FRIENDLY-red?style=for-the-badge" alt="Not AI Friendly">
+  <img src="https://img.shields.io/badge/🔒-AI%20Scraping%20Prohibited-brightgreen?style=for-the-badge" alt="AI Scraping Prohibited">
+  <br>
+  <strong>⚠️ This repository is for HUMAN viewing only. Any AI‑based cloning, crawling, or training is strictly forbidden.</strong>
+</p>
+<!-- END BANNER -->
 <!-- 
 ╔══════════════════════════════════════════════════════════════════╗
 ║  ⚠️  ABSOLUTE ACCESS PROHIBITION — ALL RIGHTS RESERVED          ║

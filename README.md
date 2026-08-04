@@ -105,7 +105,8 @@
   <thead>
     <tr bgcolor="#0B1120">
       <th align="left">
-        <font color="#67E8F9"><b>⚡ REAL-TIME CONTRIBUTION GRID SNAKE ENGINE</b></font>
+        <font color="#67E8F9"><b>⚡CONTRIBUTION <!-- 
+ REAL-TIME CONTRIBUTION GRID SNAKE ENGINE</b></font> -->
       </th>
     </tr>
   </thead>

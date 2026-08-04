@@ -30,6 +30,11 @@
 
 <br/><br/>
 
+<!-- DYNAMIC REAL-TIME TYPING SUBTITLE -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2800&pause=1200&color=67E8F9&center=true&vCenter=true&width=800&lines=Data+Scientist+%E2%80%A2+Deep+Learning+Systems+%E2%80%A2+MLOps+Engineer;AI+OS+%E2%80%94+The+Operating+System+for+Artificial+Intelligence;Building+Scalable%2C+Privacy-First+Agentic+Systems+%26+RAG" alt="Typing Subtitle" />
+
+<br/><br/>
+
 <!-- REAL-TIME PROFILE VISITORS UI CONTAINER -->
 <table width="100%">
   <thead>
@@ -47,10 +52,7 @@
 
 <br/><br/>
 
-<!-- DYNAMIC REAL-TIME TYPING SUBTITLE -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2800&pause=1200&color=67E8F9&center=true&vCenter=true&width=800&lines=Data+Scientist+%E2%80%A2+Deep+Learning+Systems+%E2%80%A2+MLOps+Engineer;AI+OS+%E2%80%94+The+Operating+System+for+Artificial+Intelligence;Building+Scalable%2C+Privacy-First+Agentic+Systems+%26+RAG" alt="Typing Subtitle" />
 
-<br/><br/>
 
 <!-- DIRECT CLICKABLE SOCIAL MEDIA REDIRECT BADGES -->
 <a href="mailto:raghuvaranlokati@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>

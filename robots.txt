@@ -1,49 +1,37 @@
-# ============================================================
-# STRICT CRAWLER PROHIBITION — ALL ROBOTS DENIED
-# Copyright © 2026 Lokati Raghuvaran
-# ============================================================
+# robots.txt for maximum AI crawler blocking
 
-# AI / LLM Training Crawlers
+User-agent: *
+Disallow: /
+
+# --- Known AI crawlers ---
 User-agent: GPTBot
 Disallow: /
 
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: Claude-Web-Viewer
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: CCBot
+User-agent: ChatGPT-User
 Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
 
-User-agent: AI2Bot
+User-agent: CCBot
 Disallow: /
 
-User-agent: PerplexityBot
+User-agent: anthropic-ai
 Disallow: /
 
-User-agent: Amazonbot
+User-agent: ClaudeBot
 Disallow: /
 
-User-agent: Bytespider
+User-agent: Cohere-AI
 Disallow: /
 
 User-agent: FacebookBot
 Disallow: /
 
-User-agent: omgili
+User-agent: Meta-ExternalAgent
 Disallow: /
 
-User-agent: omgilibot
-Disallow: /
-
-User-agent: cohere-ai
+User-agent: Omgilibot
 Disallow: /
 
 User-agent: Diffbot
@@ -52,34 +40,7 @@ Disallow: /
 User-agent: ImagesiftBot
 Disallow: /
 
-User-agent: Neevabot
+User-agent: DuckDuckGo-Favicons-Bot
 Disallow: /
 
-User-agent: Applebot-Extended
-Disallow: /
-
-# Search Engine Crawlers
-User-agent: Googlebot
-Disallow: /
-
-User-agent: Googlebot-Image
-Disallow: /
-
-User-agent: Bingbot
-Disallow: /
-
-User-agent: Slurp
-Disallow: /
-
-User-agent: DuckDuckBot
-Disallow: /
-
-User-agent: Yandex
-Disallow: /
-
-User-agent: Baiduspider
-Disallow: /
-
-# All other crawlers
-User-agent: *
-Disallow: /
+# Add any others you encounter

@@ -1,0 +1,570 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 780" width="850" height="780">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <!-- Glassmorphic Card Fill Gradient -->
+    <linearGradient id="card-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.90"/>
+    </linearGradient>
+
+    <!-- Category Accent Gradients -->
+    <linearGradient id="grad-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <linearGradient id="grad-blue-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="grad-purple-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <linearGradient id="grad-emerald-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="grad-amber-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+
+    <linearGradient id="grad-rose-violet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Animated Gradient for Header Sweep -->
+    <linearGradient id="sweep-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#3B82F6;#A855F7;#EC4899;#10B981;#22D3EE" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#A855F7;#EC4899;#10B981;#22D3EE;#3B82F6" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#EC4899;#10B981;#22D3EE;#3B82F6;#A855F7" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-amber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-rose" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    text {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .mono {
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+
+    /* Keyframe Animations */
+    @keyframes floatingBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+
+    @keyframes neonGlowPulse {
+      0%, 100% {
+        opacity: 0.75;
+        filter: drop-shadow(0 0 2px rgba(34, 211, 238, 0.4));
+      }
+      50% {
+        opacity: 1;
+        filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.9));
+      }
+    }
+
+    @keyframes particleShimmer {
+      0%, 100% { opacity: 0.15; transform: scale(0.8); }
+      50% { opacity: 0.85; transform: scale(1.3); }
+    }
+
+    @keyframes gradientSweep {
+      0% { stroke-dashoffset: 800; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    /* Animation Classes */
+    .card-tl { animation: floatingBob 4.2s ease-in-out infinite 0s; }
+    .card-tr { animation: floatingBob 4.6s ease-in-out infinite 1.1s; }
+    .card-ml { animation: floatingBob 4.4s ease-in-out infinite 0.5s; }
+    .card-mr { animation: floatingBob 4.8s ease-in-out infinite 1.6s; }
+    .card-b1 { animation: floatingBob 5.0s ease-in-out infinite 0.8s; }
+    .card-b2 { animation: floatingBob 4.7s ease-in-out infinite 1.3s; }
+
+    .glow-pulse { animation: neonGlowPulse 3s ease-in-out infinite; }
+    
+    .particle-1 { animation: particleShimmer 3.5s ease-in-out infinite 0s; transform-origin: center; }
+    .particle-2 { animation: particleShimmer 4.2s ease-in-out infinite 1.2s; transform-origin: center; }
+    .particle-3 { animation: particleShimmer 2.8s ease-in-out infinite 0.6s; transform-origin: center; }
+    .particle-4 { animation: particleShimmer 3.9s ease-in-out infinite 1.8s; transform-origin: center; }
+    .particle-5 { animation: particleShimmer 4.5s ease-in-out infinite 0.3s; transform-origin: center; }
+
+    .sweep-line {
+      stroke-dasharray: 800;
+      animation: gradientSweep 12s linear infinite;
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16"/>
+
+  <!-- Ambient Glowing Orbs -->
+  <circle cx="120" cy="100" r="140" fill="#22D3EE" opacity="0.04" filter="blur(40px)"/>
+  <circle cx="730" cy="120" r="160" fill="#A855F7" opacity="0.04" filter="blur(40px)"/>
+  <circle cx="425" cy="320" r="180" fill="#3B82F6" opacity="0.04" filter="blur(50px)"/>
+  <circle cx="150" cy="540" r="150" fill="#10B981" opacity="0.04" filter="blur(45px)"/>
+  <circle cx="700" cy="650" r="150" fill="#F43F5E" opacity="0.04" filter="blur(45px)"/>
+
+  <!-- Shimmering Star Particles -->
+  <circle cx="45" cy="40" r="1.5" fill="#22D3EE" class="particle-1"/>
+  <circle cx="810" cy="80" r="2" fill="#A855F7" class="particle-2"/>
+  <circle cx="430" cy="35" r="1" fill="#3B82F6" class="particle-3"/>
+  <circle cx="60" cy="310" r="1.8" fill="#10B981" class="particle-4"/>
+  <circle cx="800" cy="340" r="1.5" fill="#EC4899" class="particle-5"/>
+  <circle cx="410" cy="740" r="2" fill="#F43F5E" class="particle-2"/>
+
+  <!-- Main Banner Header -->
+  <g transform="translate(20, 16)">
+    <text x="26" y="16" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="1">RAGHUVARAN <tspan fill="#67E8F9" font-weight="500">// TECH STACK ARCHITECTURE</tspan></text>
+    <text x="810" y="16" text-anchor="end" fill="#94A3B8" font-size="11" font-weight="500" class="mono">AI OS v2.0</text>
+    
+    <!-- Animated Sweep Line -->
+    <line class="sweep-line" x1="0" y1="27" x2="810" y2="27" stroke="url(#sweep-grad)" stroke-width="1.5" opacity="0.85"/>
+  </g>
+
+  <!-- ================= CARD 1 (TOP-LEFT): LANGUAGES ================= -->
+  <g class="card-tl">
+    <rect x="20" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="36" y="52" width="110" height="2" fill="url(#grad-cyan)" rx="1"/>
+    
+    <circle cx="38" cy="74" r="5" fill="#22D3EE" filter="url(#glow-cyan)"/>
+    <text x="50" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">LANGUAGES</text>
+    <text x="398" y="78" text-anchor="end" fill="#22D3EE" font-size="10" font-weight="600" class="mono">7 CORE</text>
+    <line x1="34" y1="90" x2="400" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Badges Row 1 -->
+    <g transform="translate(34, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#3776AB"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFD43B" font-size="9" font-weight="900">PY</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Python</text>
+    </g>
+    <g transform="translate(158, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="7" width="20" height="20" rx="4" fill="#F7DF1E"/>
+      <text x="18" y="21" text-anchor="middle" fill="#000" font-size="9" font-weight="900">JS</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">JavaScript</text>
+    </g>
+    <g transform="translate(282, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <rect x="8" y="7" width="20" height="20" rx="4" fill="#3178C6"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">TS</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">TypeScript</text>
+    </g>
+
+    <!-- Badges Row 2 -->
+    <g transform="translate(34, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#00599C"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">C++</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">C++</text>
+    </g>
+    <g transform="translate(158, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#E34F26"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">H5</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">HTML5</text>
+    </g>
+    <g transform="translate(282, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#1572B6"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">C3</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">CSS3</text>
+    </g>
+    <g transform="translate(34, 184)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="19" text-anchor="middle" fill="#4EAA25" font-size="11" font-weight="900">$_</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">Bash Shell</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 2 (TOP-RIGHT): AI, ML & DEEP LEARNING ================= -->
+  <g class="card-tr">
+    <rect x="435" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="451" y="52" width="130" height="2" fill="url(#grad-purple-pink)" rx="1"/>
+    
+    <circle cx="453" cy="74" r="5" fill="#A855F7" filter="url(#glow-purple)"/>
+    <text x="465" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">AI, ML &amp; DEEP LEARNING</text>
+    <text x="813" y="78" text-anchor="end" fill="#EC4899" font-size="10" font-weight="600" class="mono">10 FRAMEWORKS</text>
+    <line x1="449" y1="90" x2="815" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Badges Row 1 -->
+    <g transform="translate(449, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#FF6F00"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">TF</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">TensorFlow</text>
+    </g>
+    <g transform="translate(573, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#EE4C2C"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">PT</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">PyTorch</text>
+    </g>
+    <g transform="translate(697, 100)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#3499CD"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="8.5" font-weight="900">SKL</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="10.5" font-weight="600">Scikit-learn</text>
+    </g>
+
+    <!-- Badges Row 2 -->
+    <g transform="translate(449, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#150458"/>
+      <text x="18" y="21" text-anchor="middle" fill="#E70488" font-size="9" font-weight="900">PD</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Pandas</text>
+    </g>
+    <g transform="translate(573, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#013243"/>
+      <text x="18" y="21" text-anchor="middle" fill="#4DABCF" font-size="9" font-weight="900">NP</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">NumPy</text>
+    </g>
+    <g transform="translate(697, 142)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#5C3EE8"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="8.5" font-weight="900">CV</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">OpenCV</text>
+    </g>
+
+    <!-- Badges Row 3 -->
+    <g transform="translate(449, 184)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="19" text-anchor="middle" fill="#FFD21E" font-size="11">🤗</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10" font-weight="600">HuggingFace</text>
+    </g>
+    <g transform="translate(573, 184)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="19" text-anchor="middle" fill="#22D3EE" font-size="10">🦜</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">LangChain</text>
+    </g>
+    <g transform="translate(697, 184)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="19" text-anchor="middle" fill="#8B5CF6" font-size="10">🦙</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">LlamaIndex</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 3 (MID-LEFT): FRONTEND & MOBILE ================= -->
+  <g class="card-ml">
+    <rect x="20" y="238" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="36" y="238" width="110" height="2" fill="url(#grad-blue-purple)" rx="1"/>
+    
+    <circle cx="38" cy="260" r="5" fill="#3B82F6" filter="url(#glow-blue)"/>
+    <text x="50" y="264" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">FRONTEND &amp; MOBILE</text>
+    <text x="398" y="264" text-anchor="end" fill="#3B82F6" font-size="10" font-weight="600" class="mono">7 STACK</text>
+    <line x1="34" y1="276" x2="400" y2="276" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Badges Row 1 -->
+    <g transform="translate(34, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#61DAFB"/>
+      <text x="18" y="21" text-anchor="middle" fill="#20232A" font-size="9" font-weight="900">RCT</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">React</text>
+    </g>
+    <g transform="translate(158, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#000000" stroke="#67E8F9" stroke-width="1"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">NXT</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Next.js</text>
+    </g>
+    <g transform="translate(282, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#764ABC"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">RDX</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Redux</text>
+    </g>
+
+    <!-- Badges Row 2 -->
+    <g transform="translate(34, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#06B6D4"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">TW</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Tailwind</text>
+    </g>
+    <g transform="translate(158, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#E34F26"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">H5</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">HTML5</text>
+    </g>
+    <g transform="translate(282, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#1572B6"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">C3</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">CSS3</text>
+    </g>
+    <g transform="translate(34, 370)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="18" y="19" text-anchor="middle" fill="#000000" font-size="10" font-weight="900">📱</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="11" font-weight="600">Expo</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 4 (MID-RIGHT): BACKEND, PLATFORM & DATA ================= -->
+  <g class="card-mr">
+    <rect x="435" y="238" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="451" y="238" width="130" height="2" fill="url(#grad-emerald-cyan)" rx="1"/>
+    
+    <circle cx="453" cy="260" r="5" fill="#10B981" filter="url(#glow-emerald)"/>
+    <text x="465" y="264" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">BACKEND, PLATFORM &amp; DATA</text>
+    <text x="813" y="264" text-anchor="end" fill="#10B981" font-size="10" font-weight="600" class="mono">9 ENGINES</text>
+    <line x1="449" y1="276" x2="815" y2="276" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Badges Row 1 -->
+    <g transform="translate(449, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#059669"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">FAP</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">FastAPI</text>
+    </g>
+    <g transform="translate(573, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#339933"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">NODE</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Node.js</text>
+    </g>
+    <g transform="translate(697, 286)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#000000" stroke="#FFF" stroke-width="1"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">EX</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Express.js</text>
+    </g>
+
+    <!-- Badges Row 2 -->
+    <g transform="translate(449, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#4169E1"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">PG</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">PostgreSQL</text>
+    </g>
+    <g transform="translate(573, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#47A248"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">MDB</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">MongoDB</text>
+    </g>
+    <g transform="translate(697, 328)">
+      <rect width="116" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="18" cy="17" r="9" fill="#DC382D"/>
+      <text x="18" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">RDS</text>
+      <text x="34" y="21" fill="#E2E8F0" font-size="11" font-weight="600">Redis</text>
+    </g>
+
+    <!-- Badges Row 3 -->
+    <g transform="translate(449, 370)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <circle cx="18" cy="15" r="7" fill="#E10098"/>
+      <text x="18" y="18" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">GQL</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">GraphQL</text>
+    </g>
+    <g transform="translate(573, 370)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <circle cx="18" cy="15" r="7" fill="#FFCA28"/>
+      <text x="18" y="18" text-anchor="middle" fill="#000" font-size="8" font-weight="900">FB</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">Firebase</text>
+    </g>
+    <g transform="translate(697, 370)">
+      <rect width="116" height="30" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <circle cx="18" cy="15" r="7" fill="#3ECF8E"/>
+      <text x="18" y="18" text-anchor="middle" fill="#000" font-size="8" font-weight="900">SUP</text>
+      <text x="34" y="19" fill="#E2E8F0" font-size="10.5" font-weight="600">Supabase</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 5 (MID-BOTTOM): DEVOPS, CLOUD & INFRASTRUCTURE ================= -->
+  <g class="card-b1">
+    <rect x="20" y="424" width="810" height="160" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="36" y="424" width="200" height="2" fill="url(#grad-amber-orange)" rx="1"/>
+    
+    <circle cx="38" cy="446" r="5" fill="#F59E0B" filter="url(#glow-amber)"/>
+    <text x="50" y="450" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">DEVOPS, CLOUD &amp; INFRASTRUCTURE</text>
+    <text x="813" y="450" text-anchor="end" fill="#F59E0B" font-size="10" font-weight="600" class="mono">9 CLOUD SERVICES</text>
+    <line x1="34" y1="462" x2="815" y2="462" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Badges -->
+    <g transform="translate(34, 474)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#2496ED"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">DCK</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Docker</text>
+    </g>
+    <g transform="translate(193, 474)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#326CE5"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">K8S</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Kubernetes</text>
+    </g>
+    <g transform="translate(352, 474)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#FF9900"/>
+      <text x="20" y="21" text-anchor="middle" fill="#000" font-size="9" font-weight="900">AWS</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">AWS Cloud</text>
+    </g>
+    <g transform="translate(511, 474)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#4285F4"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">GCP</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Google Cloud</text>
+    </g>
+    <g transform="translate(670, 474)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#F05032"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">GIT</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Git SCM</text>
+    </g>
+
+    <!-- Row 2 Badges -->
+    <g transform="translate(34, 518)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#181717" stroke="#67E8F9" stroke-width="1"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">GH</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">GitHub</text>
+    </g>
+    <g transform="translate(193, 518)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#000000" stroke="#FFF" stroke-width="1"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">VCL</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Vercel</text>
+    </g>
+    <g transform="translate(352, 518)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#FCC624"/>
+      <text x="20" y="21" text-anchor="middle" fill="#000" font-size="9" font-weight="900">LNX</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Linux OS</text>
+    </g>
+    <g transform="translate(511, 518)">
+      <rect width="145" height="34" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="20" cy="17" r="10" fill="#FF6C37"/>
+      <text x="20" y="21" text-anchor="middle" fill="#FFF" font-size="9" font-weight="900">PM</text>
+      <text x="40" y="21" fill="#E2E8F0" font-size="11.5" font-weight="600">Postman</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 6 (BOTTOM FULL-WIDTH): FEATURED TECHNOLOGIES & CORE ENGINES ================= -->
+  <g class="card-b2">
+    <rect x="20" y="598" width="810" height="160" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect x="36" y="598" width="220" height="2" fill="url(#grad-rose-violet)" rx="1"/>
+    
+    <circle cx="38" cy="620" r="5" fill="#F43F5E" filter="url(#glow-rose)"/>
+    <text x="50" y="624" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">FEATURED TECHNOLOGIES &amp; CORE ENGINES</text>
+    <text x="813" y="624" text-anchor="end" fill="#F43F5E" font-size="10" font-weight="600" class="mono">11 CORE BADGES</text>
+    <line x1="34" y1="636" x2="815" y2="636" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(34, 648)">
+      <rect width="120" height="32" rx="16" fill="#0F172A" stroke="#059669" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#059669"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">⚡</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">FastAPI</text>
+    </g>
+    <g transform="translate(164, 648)">
+      <rect width="120" height="32" rx="16" fill="#0F172A" stroke="#EE4C2C" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#EE4C2C"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">🔥</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">PyTorch</text>
+    </g>
+    <g transform="translate(294, 648)">
+      <rect width="130" height="32" rx="16" fill="#0F172A" stroke="#FF6F00" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#FF6F00"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">🧠</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">TensorFlow</text>
+    </g>
+    <g transform="translate(434, 648)">
+      <rect width="125" height="32" rx="16" fill="#0F172A" stroke="#22D3EE" stroke-width="1.2"/>
+      <text x="16" y="20" text-anchor="middle" fill="#FFF" font-size="10">🦜</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">LangChain</text>
+    </g>
+    <g transform="translate(569, 648)">
+      <rect width="95" height="32" rx="16" fill="#0F172A" stroke="#A855F7" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#A855F7"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">🔍</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">RAG</text>
+    </g>
+    <g transform="translate(674, 648)">
+      <rect width="141" height="32" rx="16" fill="#0F172A" stroke="#3B82F6" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#3B82F6"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">📐</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Vector Search</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(34, 692)">
+      <rect width="135" height="32" rx="16" fill="#0F172A" stroke="#4169E1" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#4169E1"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">🐘</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">PostgreSQL</text>
+    </g>
+    <g transform="translate(179, 692)">
+      <rect width="105" height="32" rx="16" fill="#0F172A" stroke="#DC382D" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#DC382D"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">⚡</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Redis</text>
+    </g>
+    <g transform="translate(294, 692)">
+      <rect width="110" height="32" rx="16" fill="#0F172A" stroke="#22D3EE" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#22D3EE"/>
+      <text x="16" y="19" text-anchor="middle" fill="#000" font-size="8" font-weight="900">📡</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Kafka</text>
+    </g>
+    <g transform="translate(414, 692)">
+      <rect width="115" height="32" rx="16" fill="#0F172A" stroke="#2496ED" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#2496ED"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">🐳</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Docker</text>
+    </g>
+    <g transform="translate(539, 692)">
+      <rect width="145" height="32" rx="16" fill="#0F172A" stroke="#326CE5" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="7" fill="#326CE5"/>
+      <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">☸️</text>
+      <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Kubernetes</text>
+    </g>
+  </g>
+</svg>

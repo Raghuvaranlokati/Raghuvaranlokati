@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" width="400" height="170">
+  <defs>
+    <linearGradient id="st-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="st-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="st-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="st-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .mono { font-family: 'Fira Code', monospace; }
+  </style>
+
+  <rect width="100%" height="100%" fill="url(#st-bg)" rx="12"/>
+  <rect x="8" y="8" width="384" height="154" rx="10" fill="url(#st-glass)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="20" y="8" width="80" height="2" fill="url(#st-cyan)" rx="1"/>
+
+  <!-- Title -->
+  <text x="24" y="28" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="0.6">RAGHUVARAN • GITHUB STATS</text>
+
+  <!-- Stat Items -->
+  <g transform="translate(24, 48)">
+    <!-- 1. Contributions -->
+    <g transform="translate(0, 0)">
+      <circle cx="8" cy="8" r="4" fill="#22D3EE"/>
+      <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Total Contributions:</text>
+      <text x="145" y="12" fill="#22D3EE" font-size="11" font-weight="700" class="mono">830+</text>
+    </g>
+
+    <!-- 2. Repositories -->
+    <g transform="translate(0, 26)">
+      <circle cx="8" cy="8" r="4" fill="#3B82F6"/>
+      <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Public Repositories:</text>
+      <text x="145" y="12" fill="#3B82F6" font-size="11" font-weight="700" class="mono">43</text>
+    </g>
+
+    <!-- 3. Stars Earned -->
+    <g transform="translate(0, 52)">
+      <circle cx="8" cy="8" r="4" fill="#A855F7"/>
+      <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Total Stars Earned:</text>
+      <text x="145" y="12" fill="#A855F7" font-size="11" font-weight="700" class="mono">45 ★</text>
+    </g>
+
+    <!-- 4. System Uptime -->
+    <g transform="translate(0, 78)">
+      <circle cx="8" cy="8" r="4" fill="#10B981"/>
+      <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">System Activity Rank:</text>
+      <text x="145" y="12" fill="#10B981" font-size="11" font-weight="700" class="mono">Top 5%</text>
+    </g>
+  </g>
+
+  <!-- Rank Badge Circle (A+) Fixed Solid Position -->
+  <g transform="translate(340, 85)">
+    <circle cx="0" cy="0" r="32" fill="#0F172A" stroke="#22D3EE" stroke-width="2.5" filter="url(#st-glow)"/>
+    <text x="0" y="5" text-anchor="middle" fill="#F8FAFC" font-size="17" font-weight="900" class="mono">A+</text>
+    <text x="0" y="19" text-anchor="middle" fill="#67E8F9" font-size="7.5" font-weight="700" letter-spacing="0.6">RANK</text>
+  </g>
+</svg>

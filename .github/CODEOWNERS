@@ -1,0 +1,12 @@
+# CODEOWNERS – these users must approve changes to critical files
+
+# Owner of the entire repo
+* @Raghuvaranlokati
+
+# Critical legal and security files require explicit owner review
+TERMS.md       @Raghuvaranlokati
+GOVERNANCE.md  @Raghuvaranlokati
+SECURITY.md    @Raghuvaranlokati
+robots.txt     @Raghuvaranlokati
+.aiignore      @Raghuvaranlokati
+.cursorignore  @Raghuvaranlokati

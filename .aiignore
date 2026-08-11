@@ -1,0 +1,10 @@
+# .aiignore – instruct AI assistants to ignore these files
+
+# Entire repository is off-limits for AI training
+*
+
+# Explicitly ignore all content
+/*
+
+# But you can keep this comment to signal your intent
+# This repository is NOT AI-FRIENDLY.

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 120" width="850" height="120">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="ft-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="wave-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="wave-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#EC4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="ft-text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="50%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .mono {
+      font-family: 'Fira Code', monospace;
+    }
+
+    @keyframes waveMotion {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-40px); }
+      100% { transform: translateX(0px); }
+    }
+
+    @keyframes statusPulse {
+      0%, 100% { fill: #10B981; }
+      50% { fill: #22D3EE; }
+    }
+
+    .w-1 { animation: waveMotion 8s ease-in-out infinite; }
+    .w-2 { animation: waveMotion 10s ease-in-out infinite 1s; }
+    .st-pulse { animation: statusPulse 3s ease-in-out infinite; }
+  </style>
+
+  <rect width="100%" height="100%" fill="url(#ft-bg)" rx="12"/>
+
+  <!-- Cybernetic Wave Animations -->
+  <path class="w-1" d="M-50,60 Q150,20 400,60 T850,60 T1300,60 L1300,120 L-50,120 Z" fill="url(#wave-1)"/>
+  <path class="w-2" d="M-50,75 Q200,40 450,75 T950,75 L950,120 L-50,120 Z" fill="url(#wave-2)"/>
+
+  <!-- Footer Content Badge (y=52) -->
+  <g transform="translate(425, 52)">
+    <rect x="-180" y="-16" width="360" height="32" rx="16" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
+    <circle cx="-160" cy="0" r="4" class="st-pulse"/>
+    <text x="0" y="4" text-anchor="middle" fill="url(#ft-text-grad)" font-size="11" font-weight="700" class="mono" letter-spacing="0.5">
+      © 2026 LOKATI RAGHUVARAN • ALL RIGHTS RESERVED
+    </text>
+  </g>
+</svg>

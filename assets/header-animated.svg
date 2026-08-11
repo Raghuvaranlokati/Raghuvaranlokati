@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="850" height="140">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="40%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <!-- Glass Surface Gradient -->
+    <linearGradient id="hdr-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Animated Shimmer Gradient for Title -->
+    <linearGradient id="title-sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67E8F9">
+        <animate attributeName="stop-color" values="#67E8F9;#3B82F6;#A855F7;#EC4899;#10B981;#67E8F9" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#A855F7;#EC4899;#10B981;#67E8F9;#3B82F6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#EC4899;#10B981;#67E8F9;#3B82F6;#A855F7" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Top Shimmer Border -->
+    <linearGradient id="border-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="hdr-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .mono {
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+
+    /* Keyframe Animations */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1); opacity: 0.12; }
+      50% { transform: scale(1.3); opacity: 0.22; }
+    }
+
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) scale(0.9); opacity: 0.2; }
+      50% { transform: translateY(-8px) scale(1.2); opacity: 0.8; }
+    }
+
+    .orb-1 { animation: pulseOrb 6s ease-in-out infinite; transform-origin: 150px 70px; }
+    .orb-2 { animation: pulseOrb 7s ease-in-out infinite 1.5s; transform-origin: 700px 70px; }
+    .orb-3 { animation: pulseOrb 8s ease-in-out infinite 3s; transform-origin: 425px 70px; }
+
+    .pt-1 { animation: floatParticle 4s ease-in-out infinite 0s; }
+    .pt-2 { animation: floatParticle 5s ease-in-out infinite 1.2s; }
+    .pt-3 { animation: floatParticle 3.8s ease-in-out infinite 2.1s; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" fill="url(#hdr-bg)" rx="16"/>
+
+  <!-- Glowing Ambient Orbs -->
+  <circle cx="150" cy="70" r="120" fill="#22D3EE" class="orb-1" filter="blur(45px)"/>
+  <circle cx="700" cy="70" r="130" fill="#A855F7" class="orb-2" filter="blur(50px)"/>
+  <circle cx="425" cy="70" r="110" fill="#3B82F6" class="orb-3" filter="blur(40px)"/>
+
+  <!-- Shimmering Particles -->
+  <circle cx="60" cy="35" r="2" fill="#22D3EE" class="pt-1"/>
+  <circle cx="780" cy="40" r="2.5" fill="#A855F7" class="pt-2"/>
+  <circle cx="400" cy="25" r="1.5" fill="#3B82F6" class="pt-3"/>
+  <circle cx="120" cy="110" r="2" fill="#EC4899" class="pt-2"/>
+  <circle cx="750" cy="105" r="1.8" fill="#10B981" class="pt-1"/>
+
+  <!-- Glass Surface Frame -->
+  <rect x="12" y="12" width="826" height="116" rx="12" fill="url(#hdr-glass)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Shimmer Line -->
+  <rect x="30" y="12" width="220" height="2" fill="url(#border-shimmer)" rx="1"/>
+
+  <!-- Main Title: LOKATI RAGHUVARAN (Only Name Centered) -->
+  <g transform="translate(425, 79)">
+    <text x="0" y="0" text-anchor="middle" fill="url(#title-sweep)" font-size="48" font-weight="900" letter-spacing="3" filter="url(#hdr-glow)">LOKATI RAGHUVARAN</text>
+  </g>
+</svg>

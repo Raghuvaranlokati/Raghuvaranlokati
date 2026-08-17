@@ -39,7 +39,6 @@
 <a href="mailto:raghuvaranlokati@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
 <a href="https://www.linkedin.com/in/lokati-raghuvaran-860572221/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" /></a>
 <a href="https://lraghuvaran.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=vercel&logoColor=9B51E0" alt="Portfolio" /></a>
-<a href="https://github.com/Raghuvaranlokati" target="_blank"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=A855F7" alt="GitHub" /></a>
 <a href="https://github.com/Raghuvaranlokati" target="_blank"><img src="https://komarev.com/ghpvc/?username=Raghuvaranlokati&amp;color=3B82F6&amp;style=for-the-badge&amp;label=LIVE+VISITORS&amp;labelColor=0F172A" alt="Live Visitors" /></a>
 
 </div>

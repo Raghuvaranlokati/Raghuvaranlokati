@@ -53,7 +53,7 @@
 <!-- ========================================================================= -->
 ### Tech Stack & Arsenal
 
-<div align="center"><img src="assets/tech-stack-animated.svg?v=999" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
+<div align="center"><img src="assets/tech-stack-animated.svg?v=5002" alt="Raghuvaranlokati Animated Tech Stack Banner" width="100%"/></div>
 
 <!-- ========================================================================= -->
 <!-- SLEEK SHIMMERING DIVIDER                                                  -->

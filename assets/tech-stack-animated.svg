@@ -44,6 +44,13 @@
       <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
 
+    <!-- Specular Light Sheen for Featured Technologies -->
+    <linearGradient id="featured-sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
     <!-- Animated Gradient for Header Sweep -->
     <linearGradient id="sweep-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22D3EE">
@@ -162,7 +169,19 @@
   <!-- Main Banner Header -->
   <g transform="translate(20, 16)">
     <text x="26" y="16" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="1">RAGHUVARAN <tspan fill="#67E8F9" font-weight="500">// TECH STACK ARCHITECTURE</tspan></text>
-    <text x="810" y="16" text-anchor="end" fill="#94A3B8" font-size="11" font-weight="500" class="mono">AI OS v2.0</text>
+    
+    <!-- Active System Telemetry Beacon -->
+    <g transform="translate(702, 12)">
+      <circle cx="0" cy="0" r="3" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="2.5;3.5;2.5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="5" fill="none" stroke="#10B981" stroke-width="0.8" opacity="0.6">
+        <animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="810" y="16" text-anchor="end" fill="#67E8F9" font-size="11" font-weight="600" class="mono">SYSTEM ACTIVE</text>
     
     <!-- Animated Sweep Line -->
     <line class="sweep-line" x1="0" y1="27" x2="810" y2="27" stroke="url(#sweep-grad)" stroke-width="1.5" opacity="0.85"/>
@@ -171,9 +190,18 @@
   <!-- ================= CARD 1 (TOP-LEFT): LANGUAGES ================= -->
   <g class="card-tl">
     <rect x="20" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="36" y="52" width="110" height="2" fill="url(#grad-cyan)" rx="1"/>
+    <rect x="36" y="52" width="110" height="2" fill="url(#grad-cyan)" rx="1">
+      <animate attributeName="x" values="36;280;36" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="38" cy="74" r="5" fill="#22D3EE" filter="url(#glow-cyan)"/>
+    <circle cx="38" cy="74" r="5" fill="#22D3EE" filter="url(#glow-cyan)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="38" cy="74" r="7" fill="none" stroke="#22D3EE" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
     <text x="50" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">LANGUAGES</text>
     <text x="398" y="78" text-anchor="end" fill="#22D3EE" font-size="10" font-weight="600" class="mono">7 CORE</text>
     <line x1="34" y1="90" x2="400" y2="90" stroke="#1E293B" stroke-width="1"/>
@@ -227,9 +255,18 @@
   <!-- ================= CARD 2 (TOP-RIGHT): AI, ML & DEEP LEARNING ================= -->
   <g class="card-tr">
     <rect x="435" y="52" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="451" y="52" width="130" height="2" fill="url(#grad-purple-pink)" rx="1"/>
+    <rect x="451" y="52" width="130" height="2" fill="url(#grad-purple-pink)" rx="1">
+      <animate attributeName="x" values="451;675;451" dur="6s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="453" cy="74" r="5" fill="#A855F7" filter="url(#glow-purple)"/>
+    <circle cx="453" cy="74" r="5" fill="#A855F7" filter="url(#glow-purple)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="453" cy="74" r="7" fill="none" stroke="#A855F7" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
     <text x="465" y="78" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">AI, ML &amp; DEEP LEARNING</text>
     <text x="813" y="78" text-anchor="end" fill="#EC4899" font-size="10" font-weight="600" class="mono">10 FRAMEWORKS</text>
     <line x1="449" y1="90" x2="815" y2="90" stroke="#1E293B" stroke-width="1"/>
@@ -295,9 +332,18 @@
   <!-- ================= CARD 3 (MID-LEFT): FRONTEND & MOBILE ================= -->
   <g class="card-ml">
     <rect x="20" y="238" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="36" y="238" width="110" height="2" fill="url(#grad-blue-purple)" rx="1"/>
+    <rect x="36" y="238" width="110" height="2" fill="url(#grad-blue-purple)" rx="1">
+      <animate attributeName="x" values="36;280;36" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="38" cy="260" r="5" fill="#3B82F6" filter="url(#glow-blue)"/>
+    <circle cx="38" cy="260" r="5" fill="#3B82F6" filter="url(#glow-blue)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="38" cy="260" r="7" fill="none" stroke="#3B82F6" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="50" y="264" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">FRONTEND &amp; MOBILE</text>
     <text x="398" y="264" text-anchor="end" fill="#3B82F6" font-size="10" font-weight="600" class="mono">7 STACK</text>
     <line x1="34" y1="276" x2="400" y2="276" stroke="#1E293B" stroke-width="1"/>
@@ -351,9 +397,18 @@
   <!-- ================= CARD 4 (MID-RIGHT): BACKEND, PLATFORM & DATA ================= -->
   <g class="card-mr">
     <rect x="435" y="238" width="395" height="170" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="451" y="238" width="130" height="2" fill="url(#grad-emerald-cyan)" rx="1"/>
+    <rect x="451" y="238" width="130" height="2" fill="url(#grad-emerald-cyan)" rx="1">
+      <animate attributeName="x" values="451;675;451" dur="5.6s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="453" cy="260" r="5" fill="#10B981" filter="url(#glow-emerald)"/>
+    <circle cx="453" cy="260" r="5" fill="#10B981" filter="url(#glow-emerald)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="453" cy="260" r="7" fill="none" stroke="#10B981" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
     <text x="465" y="264" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">BACKEND, PLATFORM &amp; DATA</text>
     <text x="813" y="264" text-anchor="end" fill="#10B981" font-size="10" font-weight="600" class="mono">9 ENGINES</text>
     <line x1="449" y1="276" x2="815" y2="276" stroke="#1E293B" stroke-width="1"/>
@@ -422,9 +477,18 @@
   <!-- ================= CARD 5 (MID-BOTTOM): DEVOPS, CLOUD & INFRASTRUCTURE ================= -->
   <g class="card-b1">
     <rect x="20" y="424" width="810" height="160" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="36" y="424" width="200" height="2" fill="url(#grad-amber-orange)" rx="1"/>
+    <rect x="36" y="424" width="200" height="2" fill="url(#grad-amber-orange)" rx="1">
+      <animate attributeName="x" values="36;610;36" dur="7s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="38" cy="446" r="5" fill="#F59E0B" filter="url(#glow-amber)"/>
+    <circle cx="38" cy="446" r="5" fill="#F59E0B" filter="url(#glow-amber)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="38" cy="446" r="7" fill="none" stroke="#F59E0B" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
     <text x="50" y="450" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">DEVOPS, CLOUD &amp; INFRASTRUCTURE</text>
     <text x="813" y="450" text-anchor="end" fill="#F59E0B" font-size="10" font-weight="600" class="mono">9 CLOUD SERVICES</text>
     <line x1="34" y1="462" x2="815" y2="462" stroke="#1E293B" stroke-width="1"/>
@@ -491,9 +555,18 @@
   <!-- ================= CARD 6 (BOTTOM FULL-WIDTH): FEATURED TECHNOLOGIES & CORE ENGINES ================= -->
   <g class="card-b2">
     <rect x="20" y="598" width="810" height="160" rx="12" fill="url(#card-glass)" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="36" y="598" width="220" height="2" fill="url(#grad-rose-violet)" rx="1"/>
+    <rect x="36" y="598" width="220" height="2" fill="url(#grad-rose-violet)" rx="1">
+      <animate attributeName="x" values="36;590;36" dur="7.2s" repeatCount="indefinite"/>
+    </rect>
     
-    <circle cx="38" cy="620" r="5" fill="#F43F5E" filter="url(#glow-rose)"/>
+    <circle cx="38" cy="620" r="5" fill="#F43F5E" filter="url(#glow-rose)">
+      <animate attributeName="r" values="4.5;5.8;4.5" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="38" cy="620" r="7" fill="none" stroke="#F43F5E" stroke-width="0.8" opacity="0.5">
+      <animate attributeName="r" values="5;10;5" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
     <text x="50" y="624" fill="#F8FAFC" font-size="13" font-weight="700" letter-spacing="0.5">FEATURED TECHNOLOGIES &amp; CORE ENGINES</text>
     <text x="813" y="624" text-anchor="end" fill="#F43F5E" font-size="10" font-weight="600" class="mono">11 CORE BADGES</text>
     <line x1="34" y1="636" x2="815" y2="636" stroke="#1E293B" stroke-width="1"/>
@@ -566,5 +639,10 @@
       <text x="16" y="19" text-anchor="middle" fill="#FFF" font-size="8" font-weight="900">☸️</text>
       <text x="32" y="20" fill="#E2E8F0" font-size="11" font-weight="600">Kubernetes</text>
     </g>
+
+    <!-- Specular Shimmer Sheen gliding across featured pills -->
+    <rect x="34" y="644" width="130" height="85" fill="url(#featured-sheen)" rx="12" pointer-events="none">
+      <animate attributeName="x" from="-150" to="830" dur="6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>

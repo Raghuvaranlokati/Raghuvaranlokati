@@ -68,7 +68,7 @@
     <rect width="250" height="86" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
     <circle cx="36" cy="43" r="20" fill="url(#contrib-orb)"/>
     <text x="36" y="50" text-anchor="middle" fill="#FFF" font-size="18">📈</text>
-    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">830+</text>
+    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">12,725+</text>
     <text x="70" y="56" fill="#94A3B8" font-size="10.5" font-weight="600">Total Contributions</text>
     <text x="70" y="70" fill="#22D3EE" font-size="9" font-weight="600" class="mono">All-Time Activity</text>
   </g>
@@ -78,7 +78,7 @@
     <rect width="250" height="86" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5" filter="url(#strk-glow)"/>
     <circle cx="36" cy="43" r="20" fill="url(#flame-orb)"/>
     <text x="36" y="50" text-anchor="middle" fill="#FFF" font-size="20">🔥</text>
-    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">14 Days</text>
+    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">86 Days</text>
     <text x="70" y="56" fill="#F59E0B" font-size="10.5" font-weight="700">Current Streak</text>
     <text x="70" y="70" fill="#CBD5E1" font-size="9" font-weight="600" class="mono">Continuous Commits</text>
   </g>
@@ -88,7 +88,7 @@
     <rect width="250" height="86" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
     <circle cx="36" cy="43" r="20" fill="url(#longest-orb)"/>
     <text x="36" y="50" text-anchor="middle" fill="#FFF" font-size="18">⚡</text>
-    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">42 Days</text>
+    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">86 Days</text>
     <text x="70" y="56" fill="#94A3B8" font-size="10.5" font-weight="600">Highest Streak</text>
     <text x="70" y="70" fill="#10B981" font-size="9" font-weight="600" class="mono">Personal Best Record</text>
   </g>

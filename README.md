@@ -69,12 +69,12 @@
 
 <div align="center">
 
-<img height="165" src="assets/github-stats.svg?v=5000" alt="Raghuvaranlokati GitHub Stats"/>
+<img height="165" src="assets/github-stats.svg?v=5001" alt="Raghuvaranlokati GitHub Stats"/>
 <img height="165" src="assets/top-languages.svg?v=5000" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="assets/github-streak.svg?v=5000" width="100%" alt="Raghuvaranlokati GitHub Streak Stats"/>
+<img src="assets/github-streak.svg?v=5001" width="100%" alt="Raghuvaranlokati GitHub Streak Stats"/>
 
 <br/><br/>
 

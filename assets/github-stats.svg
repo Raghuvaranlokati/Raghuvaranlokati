@@ -41,14 +41,14 @@
     <g transform="translate(0, 0)">
       <circle cx="8" cy="8" r="4" fill="#22D3EE"/>
       <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Total Contributions:</text>
-      <text x="145" y="12" fill="#22D3EE" font-size="11" font-weight="700" class="mono">830+</text>
+      <text x="145" y="12" fill="#22D3EE" font-size="11" font-weight="700" class="mono">12,725+</text>
     </g>
 
     <!-- 2. Repositories -->
     <g transform="translate(0, 26)">
       <circle cx="8" cy="8" r="4" fill="#3B82F6"/>
       <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Public Repositories:</text>
-      <text x="145" y="12" fill="#3B82F6" font-size="11" font-weight="700" class="mono">43</text>
+      <text x="145" y="12" fill="#3B82F6" font-size="11" font-weight="700" class="mono">59</text>
     </g>
 
     <!-- 3. Stars Earned -->

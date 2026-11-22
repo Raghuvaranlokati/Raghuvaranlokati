@@ -26,7 +26,7 @@
 <!-- ========================================================================= -->
 <div align="center">
 
-<img src="assets/header-animated.svg?v=5000" width="100%" alt="Lokati Raghuvaran Header Banner"/>
+<img src="assets/header-animated.svg?v=5002" width="100%" alt="Lokati Raghuvaran Header Banner"/>
 
 <br/><br/>
 

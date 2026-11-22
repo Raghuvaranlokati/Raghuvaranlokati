@@ -8,9 +8,22 @@
       <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
     </linearGradient>
+
+    <!-- Animated Accent Bar -->
     <linearGradient id="bar-accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#3B82F6"/>
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#3B82F6;#A855F7;#22D3EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3B82F6">
+        <animate attributeName="stop-color" values="#3B82F6;#A855F7;#22D3EE;#3B82F6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Specular Sheen -->
+    <linearGradient id="tl-sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
@@ -22,8 +35,10 @@
   <rect width="100%" height="100%" fill="url(#tl-bg)" rx="12"/>
   <rect x="8" y="8" width="384" height="154" rx="10" fill="url(#tl-glass)" stroke="#1E293B" stroke-width="1.5"/>
 
-  <!-- Top Accent Bar -->
-  <rect x="20" y="8" width="80" height="2" fill="url(#bar-accent)" rx="1"/>
+  <!-- Top Accent Bar (Glides across) -->
+  <rect x="20" y="8" width="80" height="2" fill="url(#bar-accent)" rx="1">
+    <animate attributeName="x" values="20;290;20" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Title -->
   <text x="24" y="32" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="0.6">TOP LANGUAGES &amp; STACK DISTRIBUTION</text>
@@ -32,37 +47,57 @@
   <g transform="translate(24, 56)">
     <!-- Python -->
     <g transform="translate(0, 0)">
-      <circle cx="6" cy="6" r="4.5" fill="#22D3EE"/>
+      <circle cx="6" cy="6" r="4.5" fill="#22D3EE">
+        <animate attributeName="r" values="4.2;5.2;4.2" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
       <text x="18" y="10" fill="#E2E8F0" font-size="11.5" font-weight="600">Python</text>
       <text x="145" y="10" fill="#67E8F9" font-size="11.5" font-weight="700" class="mono">48.0%</text>
     </g>
 
     <!-- TypeScript -->
     <g transform="translate(180, 0)">
-      <circle cx="6" cy="6" r="4.5" fill="#3B82F6"/>
+      <circle cx="6" cy="6" r="4.5" fill="#3B82F6">
+        <animate attributeName="r" values="4.2;5.2;4.2" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
       <text x="18" y="10" fill="#E2E8F0" font-size="11.5" font-weight="600">TypeScript</text>
       <text x="135" y="10" fill="#60A5FA" font-size="11.5" font-weight="700" class="mono">22.0%</text>
     </g>
 
     <!-- JavaScript -->
     <g transform="translate(0, 34)">
-      <circle cx="6" cy="6" r="4.5" fill="#A855F7"/>
+      <circle cx="6" cy="6" r="4.5" fill="#A855F7">
+        <animate attributeName="r" values="4.2;5.2;4.2" dur="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.3s" repeatCount="indefinite"/>
+      </circle>
       <text x="18" y="10" fill="#E2E8F0" font-size="11.5" font-weight="600">JavaScript</text>
       <text x="145" y="10" fill="#C084FC" font-size="11.5" font-weight="700" class="mono">15.0%</text>
     </g>
 
     <!-- C++ -->
     <g transform="translate(180, 34)">
-      <circle cx="6" cy="6" r="4.5" fill="#EC4899"/>
+      <circle cx="6" cy="6" r="4.5" fill="#EC4899">
+        <animate attributeName="r" values="4.2;5.2;4.2" dur="2.7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
       <text x="18" y="10" fill="#E2E8F0" font-size="11.5" font-weight="600">C++</text>
       <text x="135" y="10" fill="#F472B6" font-size="11.5" font-weight="700" class="mono">8.0%</text>
     </g>
 
     <!-- HTML / CSS -->
     <g transform="translate(0, 68)">
-      <circle cx="6" cy="6" r="4.5" fill="#10B981"/>
+      <circle cx="6" cy="6" r="4.5" fill="#10B981">
+        <animate attributeName="r" values="4.2;5.2;4.2" dur="2.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
       <text x="18" y="10" fill="#E2E8F0" font-size="11.5" font-weight="600">HTML5 &amp; CSS3</text>
       <text x="145" y="10" fill="#34D399" font-size="11.5" font-weight="700" class="mono">7.0%</text>
     </g>
   </g>
+
+  <!-- Specular Sheen -->
+  <rect x="8" y="8" width="60" height="154" fill="url(#tl-sheen)" rx="10" pointer-events="none">
+    <animate attributeName="x" from="-70" to="400" dur="5s" repeatCount="indefinite"/>
+  </rect>
 </svg>

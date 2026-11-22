@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Automated GitHub Stats & Streak Updater
-Fetches real-time GitHub streaks and contribution counts, then updates
-assets/github-streak.svg and assets/github-stats.svg.
+Automated GitHub Stats, Streak & Trophies Updater
+Fetches real-time GitHub streaks, contribution counts, repositories, and stars,
+then updates assets/github-streak.svg, assets/github-stats.svg, and assets/github-trophies.svg.
 """
 
 import os
@@ -15,6 +15,7 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "Raghuvaranlokati")
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STREAK_SVG_PATH = os.path.join(BASE_DIR, "assets", "github-streak.svg")
 STATS_SVG_PATH = os.path.join(BASE_DIR, "assets", "github-stats.svg")
+TROPHIES_SVG_PATH = os.path.join(BASE_DIR, "assets", "github-trophies.svg")
 
 
 def fetch_streak_data(username):
@@ -70,6 +71,31 @@ def fetch_user_meta(username):
         return {}
 
 
+def fetch_total_stars(username):
+    token = os.environ.get("GITHUB_TOKEN")
+    stars = 0
+    page = 1
+    while page <= 5:
+        url = f"https://api.github.com/users/{username}/repos?per_page=100&page={page}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        if token:
+            req.add_header("Authorization", f"Bearer {token}")
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                if not data:
+                    break
+                for repo in data:
+                    stars += repo.get("stargazers_count", 0)
+                if len(data) < 100:
+                    break
+                page += 1
+        except Exception as e:
+            print(f"Warning: Could not fetch stars page {page}: {e}", file=sys.stderr)
+            break
+    return stars
+
+
 def update_streak_svg(data):
     if not os.path.exists(STREAK_SVG_PATH):
         print(f"Error: {STREAK_SVG_PATH} not found", file=sys.stderr)
@@ -80,21 +106,21 @@ def update_streak_svg(data):
 
     original = content
 
-    # 1. Total Contributions: replace number above Total Contributions
+    # 1. Total Contributions
     content = re.sub(
         r'(<text[^>]*class="mono">)[^<]+(\+</text>\s*<text[^>]*>Total Contributions</text>)',
         rf'\g<1>{data["total_contributions"]}\g<2>',
         content
     )
 
-    # 2. Current Streak: replace number above Current Streak
+    # 2. Current Streak
     content = re.sub(
         r'(<text[^>]*class="mono">)[^<]+Days(</text>\s*<text[^>]*>Current Streak</text>)',
         rf'\g<1>{data["current_streak"]} Days\g<2>',
         content
     )
 
-    # 3. Highest Streak: replace number above Highest Streak
+    # 3. Highest Streak
     content = re.sub(
         r'(<text[^>]*class="mono">)[^<]+Days(</text>\s*<text[^>]*>Highest Streak</text>)',
         rf'\g<1>{data["longest_streak"]} Days\g<2>',
@@ -106,12 +132,10 @@ def update_streak_svg(data):
             f.write(content)
         print(f"Updated {STREAK_SVG_PATH}: Current={data['current_streak']} Days, Longest={data['longest_streak']} Days, Total={data['total_contributions']}+")
         return True
-    else:
-        print(f"No changes required for {STREAK_SVG_PATH}.")
-        return False
+    return False
 
 
-def update_stats_svg(streak_data, user_meta):
+def update_stats_svg(streak_data, user_meta, stars):
     if not os.path.exists(STATS_SVG_PATH):
         return False
 
@@ -120,14 +144,14 @@ def update_stats_svg(streak_data, user_meta):
 
     original = content
 
-    # Update Total Contributions in stats.svg
+    # Update Total Contributions
     content = re.sub(
         r'(<text[^>]*>Total Contributions:</text>\s*<text[^>]*class="mono">)[^<]+(</text>)',
         rf'\g<1>{streak_data["total_contributions"]}+\g<2>',
         content
     )
 
-    # Update Public Repositories in stats.svg if fetched
+    # Update Public Repositories
     if user_meta.get("public_repos") is not None:
         content = re.sub(
             r'(<text[^>]*>Public Repositories:</text>\s*<text[^>]*class="mono">)[^<]+(</text>)',
@@ -135,18 +159,68 @@ def update_stats_svg(streak_data, user_meta):
             content
         )
 
+    # Update Stars Earned
+    if stars and stars > 0:
+        content = re.sub(
+            r'(<text[^>]*>Total Stars Earned:</text>\s*<text[^>]*class="mono">)[^<]+(</text>)',
+            rf'\g<1>{stars} ★\g<2>',
+            content
+        )
+
     if content != original:
         with open(STATS_SVG_PATH, "w", encoding="utf-8") as f:
             f.write(content)
-        print(f"Updated {STATS_SVG_PATH}.")
+        print(f"Updated {STATS_SVG_PATH}: Stars={stars}")
         return True
-    else:
-        print(f"No changes required for {STATS_SVG_PATH}.")
+    return False
+
+
+def update_trophies_svg(streak_data, stars):
+    if not os.path.exists(TROPHIES_SVG_PATH):
         return False
+
+    with open(TROPHIES_SVG_PATH, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    original = content
+
+    # Format commits/contributions count: e.g. "12.7K+ COMMITS"
+    raw_total = streak_data.get("total_contributions", "").replace(",", "")
+    if raw_total.isdigit():
+        val = int(raw_total)
+        if val >= 1000:
+            commit_str = f"{val/1000:.1f}K+ COMMITS"
+        else:
+            commit_str = f"{val}+ COMMITS"
+    else:
+        commit_str = f"{streak_data.get('total_contributions')}+ COMMITS"
+
+    # Update Committer badge (y=38 block #6)
+    content = re.sub(
+        r'(<text[^>]*>Committer</text>\s*<text[^>]*class="mono">)[^<]+(</text>)',
+        rf'\g<1>{commit_str}\g<2>',
+        content
+    )
+
+    # Update Star Gazer badge
+    if stars and stars > 0:
+        star_tier = f"{(stars // 5) * 5}+ STARS" if stars >= 50 else f"{stars}+ STARS"
+        content = re.sub(
+            r'(<text[^>]*>Star Gazer</text>\s*<text[^>]*class="mono">)[^<]+(</text>)',
+            rf'\g<1>{star_tier}\g<2>',
+            content
+        )
+
+    if content != original:
+        with open(TROPHIES_SVG_PATH, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Updated {TROPHIES_SVG_PATH}: Commits={commit_str}, Stars={star_tier}")
+        return True
+    return False
 
 
 def main():
-    print(f"Fetching streak data for {USERNAME}...")
+    print(f"Fetching streak and profile data for {USERNAME}...")
     try:
         streak_data = fetch_streak_data(USERNAME)
         print(f"Fetched live streak data: {streak_data}")
@@ -155,11 +229,14 @@ def main():
         sys.exit(1)
 
     user_meta = fetch_user_meta(USERNAME)
+    stars = fetch_total_stars(USERNAME)
+    print(f"Fetched metadata: repos={user_meta.get('public_repos')}, stars={stars}")
 
     changed_streak = update_streak_svg(streak_data)
-    changed_stats = update_stats_svg(streak_data, user_meta)
+    changed_stats = update_stats_svg(streak_data, user_meta, stars)
+    changed_trophies = update_trophies_svg(streak_data, stars)
 
-    if changed_streak or changed_stats:
+    if changed_streak or changed_stats or changed_trophies:
         print("Successfully updated SVG statistics!")
     else:
         print("All SVGs are already up to date.")

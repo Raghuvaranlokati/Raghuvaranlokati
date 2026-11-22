@@ -78,7 +78,7 @@
 
 <br/><br/>
 
-<img src="assets/github-trophies.svg?v=5000" width="100%" alt="GitHub Trophies"/>
+<img src="assets/github-trophies.svg?v=5001" width="100%" alt="GitHub Trophies"/>
 
 <br/><br/>
 

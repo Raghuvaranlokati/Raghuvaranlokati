@@ -107,7 +107,7 @@
     <circle cx="22" cy="26" r="14" fill="url(#emerald-orb)"/>
     <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">🌟</text>
     <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Star Gazer</text>
-    <text x="44" y="38" fill="#10B981" font-size="9" font-weight="600" class="mono">45+ STARS</text>
+    <text x="44" y="38" fill="#10B981" font-size="9" font-weight="600" class="mono">175+ STARS</text>
   </g>
 
   <!-- 6. 830+ Commits -->
@@ -116,6 +116,6 @@
     <circle cx="22" cy="26" r="14" fill="url(#blue-orb)"/>
     <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">📊</text>
     <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Committer</text>
-    <text x="44" y="38" fill="#3B82F6" font-size="9" font-weight="600" class="mono">830+ COMMITS</text>
+    <text x="44" y="38" fill="#3B82F6" font-size="9" font-weight="600" class="mono">12.7K+ COMMITS</text>
   </g>
 </svg>

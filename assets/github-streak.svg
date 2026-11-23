@@ -107,7 +107,7 @@
     <rect width="250" height="86" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1.2"/>
     <circle cx="36" cy="43" r="20" fill="url(#contrib-orb)"/>
     <text x="36" y="50" text-anchor="middle" fill="#FFF" font-size="18">📈</text>
-    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">12,725+</text>
+    <text x="70" y="38" fill="#F8FAFC" font-size="22" font-weight="900" class="mono">12,736+</text>
     <text x="70" y="56" fill="#94A3B8" font-size="10.5" font-weight="600">Total Contributions</text>
     <text x="70" y="70" fill="#22D3EE" font-size="9" font-weight="600" class="mono">All-Time Activity</text>
   </g>

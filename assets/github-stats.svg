@@ -60,7 +60,7 @@
         <animate attributeName="opacity" values="0.75;1;0.75" dur="2.2s" repeatCount="indefinite"/>
       </circle>
       <text x="20" y="12" fill="#CBD5E1" font-size="11" font-weight="500">Total Contributions:</text>
-      <text x="145" y="12" fill="#22D3EE" font-size="11" font-weight="700" class="mono">12,879+</text>
+      <text x="145" y="12" fill="#22D3EE" font-size="11" font-weight="700" class="mono">13,076+</text>
     </g>
 
     <!-- 2. Repositories -->

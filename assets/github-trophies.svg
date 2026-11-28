@@ -148,7 +148,7 @@
     <circle cx="22" cy="26" r="14" fill="url(#blue-orb)"/>
     <text x="22" y="31" text-anchor="middle" fill="#FFF" font-size="13">📊</text>
     <text x="44" y="24" fill="#F8FAFC" font-size="10.5" font-weight="700">Committer</text>
-    <text x="44" y="38" fill="#3B82F6" font-size="9" font-weight="600" class="mono">13.4K+ COMMITS</text>
+    <text x="44" y="38" fill="#3B82F6" font-size="9" font-weight="600" class="mono">13.5K+ COMMITS</text>
   </g>
 
   <!-- Specular Shimmer Sheen gliding across all 6 badges -->
